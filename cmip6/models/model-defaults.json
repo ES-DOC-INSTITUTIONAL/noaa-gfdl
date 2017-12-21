@@ -1,121 +1,121 @@
 {
     "gfdl-am4": {
         "aerosol": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip5:gfdl-cm3", 
             "name": ""
         }, 
         "atmos": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip5:gfdl-cm3", 
             "name": ""
         }, 
         "atmoschem": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip5:gfdl-cm3", 
             "name": ""
         }, 
         "land": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip5:gfdl-cm3", 
             "name": ""
         }, 
         "landice": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip5:gfdl-cm3", 
             "name": ""
         }
     }, 
     "gfdl-cm4": {
         "aerosol": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip6:gfdl-am4", 
             "name": ""
         }, 
         "atmos": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip6:gfdl-am4", 
             "name": ""
         }, 
         "atmoschem": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip6:gfdl-am4", 
             "name": ""
         }, 
         "land": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip6:gfdl-am4", 
             "name": ""
         }, 
         "landice": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip6:gfdl-am4", 
             "name": ""
         }, 
         "ocean": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip5:gfdl-cm3", 
             "name": ""
         }, 
         "ocnbgchem": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip5:gfdl-cm3", 
             "name": ""
         }, 
         "seaice": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip5:gfdl-cm3", 
             "name": ""
         }
     }, 
     "gfdl-esm2m": {
         "aerosol": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip5:gfdl-esm2m", 
             "name": ""
         }, 
         "atmos": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip5:gfdl-esm2m", 
             "name": ""
         }, 
         "atmoschem": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip5:gfdl-esm2m", 
             "name": ""
         }, 
         "land": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip5:gfdl-esm2m", 
             "name": ""
         }, 
         "landice": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip5:gfdl-esm2m", 
             "name": ""
         }, 
         "ocean": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip5:gfdl-esm2m", 
             "name": ""
         }, 
         "seaice": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip5:gfdl-esm2m", 
             "name": ""
         }
     }, 
     "gfdl-esm4": {
         "aerosol": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip5:gfdl-esm2m", 
             "name": ""
         }, 
         "atmos": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip6:gfdl-cm4", 
             "name": ""
         }, 
         "atmoschem": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip5:gfdl-esm2m", 
             "name": ""
         }, 
         "land": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip6:gfdl-cm4", 
             "name": ""
         }, 
         "landice": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip6:gfdl-cm4", 
             "name": ""
         }, 
         "ocean": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip6:gfdl-cm4", 
             "name": ""
         }, 
         "ocnbgchem": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip5:gfdl-esm2m", 
             "name": ""
         }, 
         "seaice": {
-            "initializedFrom": "", 
+            "initializedFrom": "cmip6:gfdl-cm4", 
             "name": ""
         }
     }
