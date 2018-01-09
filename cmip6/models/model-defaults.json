@@ -87,7 +87,7 @@
     }, 
     "gfdl-esm4": {
         "aerosol": {
-            "initializedFrom": "cmip5:gfdl-esm2m", 
+            "initializedFrom": "cmip6:gfdl-cm4", 
             "name": "AM4.1"
         }, 
         "atmos": {
@@ -95,7 +95,7 @@
             "name": "AM4.1"
         }, 
         "atmoschem": {
-            "initializedFrom": "cmip5:gfdl-esm2m", 
+            "initializedFrom": "cmip5:gfdl-cm3", 
             "name": "AM4.1"
         }, 
         "land": {
