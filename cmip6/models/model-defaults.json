@@ -1,122 +1,122 @@
 {
     "gfdl-am4": {
         "aerosol": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:gfdl-cm3", 
+            "name": "AM4.0"
         }, 
         "atmos": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:gfdl-cm3", 
+            "name": "AM4.0"
         }, 
         "atmoschem": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:gfdl-cm3", 
+            "name": "AM4.0"
         }, 
         "land": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:gfdl-cm3", 
+            "name": "LM4.0"
         }, 
         "landice": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:gfdl-cm3", 
+            "name": "LM4.0"
         }
     }, 
     "gfdl-cm4": {
         "aerosol": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip6:gfdl-am4", 
+            "name": "AM4.1"
         }, 
         "atmos": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip6:gfdl-am4", 
+            "name": "AM4.1"
         }, 
         "atmoschem": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip6:gfdl-am4", 
+            "name": "AM4.1"
         }, 
         "land": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip6:gfdl-am4", 
+            "name": "LM4.0"
         }, 
         "landice": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip6:gfdl-am4", 
+            "name": "LM4.0"
         }, 
         "ocean": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:gfdl-cm3", 
+            "name": "MOM6"
         }, 
         "ocnbgchem": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:gfdl-cm3", 
+            "name": "BLING v2"
         }, 
         "seaice": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:gfdl-cm3", 
+            "name": "MOM6"
         }
     }, 
     "gfdl-esm2m": {
         "aerosol": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:gfdl-esm2m", 
+            "name": "AM2"
         }, 
         "atmos": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:gfdl-esm2m", 
+            "name": "AM2"
         }, 
         "atmoschem": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:gfdl-esm2m", 
+            "name": "AM2"
         }, 
         "land": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:gfdl-esm2m", 
+            "name": "LM2"
         }, 
         "landice": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:gfdl-esm2m", 
+            "name": "LM2"
         }, 
         "ocean": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:gfdl-esm2m", 
+            "name": "MOM5"
         }, 
         "seaice": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:gfdl-esm2m", 
+            "name": "MOM5"
         }
     }, 
     "gfdl-esm4": {
         "aerosol": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip6:gfdl-cm4", 
+            "name": "AM4.1"
         }, 
         "atmos": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip6:gfdl-cm4", 
+            "name": "AM4.1"
         }, 
         "atmoschem": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:gfdl-cm3", 
+            "name": "AM4.1"
         }, 
         "land": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip6:gfdl-cm4", 
+            "name": "LM4.1"
         }, 
         "landice": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip6:gfdl-cm4", 
+            "name": "LM4.1"
         }, 
         "ocean": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip6:gfdl-cm4", 
+            "name": "MOM6"
         }, 
         "ocnbgchem": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:gfdl-esm2m", 
+            "name": "COBALT2"
         }, 
         "seaice": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip6:gfdl-cm4", 
+            "name": "MOM6"
         }
     }
 }
