@@ -1,0 +1,300 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "noaa-gfdl", 
+    "seedingSource": "cmip5:gfdl-cm3", 
+    "sourceID": "gfdl-am4", 
+    "topic": "atmos", 
+    "authors": [], 
+    "contributors": [], 
+    "content": {
+        "cmip6.atmos.cloud_scheme.processes": {
+            "values": [
+                "Other: prognostic cloud area, liquid, and  ice for stratiform; convective areas from cumulus parameterizations"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_water_distribution.convection_coupling": {
+            "values": [
+                "coupled with deep", 
+                "coupled with shallow"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_water_distribution.function_name": {
+            "values": [
+                "Tiedtke (1993) prognostic for stratiform; Donner et al. (2001) , Bretherton et al. (2004), and Wilcox and Donner (2007) for convective"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.uses_separate_treatment": {
+            "values": [
+                "Yes"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.momentum.conserved_quantities": {
+            "values": [
+                "Vorticity"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.tracers.conserved_quantities": {
+            "values": [
+                "Other: mass"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.tracers.scheme_characteristics": {
+            "values": [
+                "finite volume"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.diffusion_horizontal.scheme_name": {
+            "values": [
+                "Monotonic constraint and divergence damping"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.prognostic_variables": {
+            "values": [
+                "Other: vapour/solid/liquid", 
+                "clouds", 
+                "potential temperature", 
+                "wind components"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.timestepping_type": {
+            "values": [
+                "explicit"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.top_boundary.top_boundary_condition": {
+            "values": [
+                "sponge layer"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.top_boundary.top_heat": {
+            "values": [
+                "Zero flux"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.non_orographic_gravity_waves.calculation_method": {
+            "values": [
+                "spatially dependent"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.non_orographic_gravity_waves.dissipation_scheme": {
+            "values": [
+                "single wave"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.non_orographic_gravity_waves.propagation_scheme": {
+            "values": [
+                "linear theory"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.non_orographic_gravity_waves.source_mechanisms": {
+            "values": [
+                "background spectrum"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.orographic_gravity_waves.calculation_method": {
+            "values": [
+                "non-linear calculation"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.orographic_gravity_waves.dissipation_scheme": {
+            "values": [
+                "single wave"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.orographic_gravity_waves.propagation_scheme": {
+            "values": [
+                "linear theory"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.orographic_gravity_waves.source_mechanisms": {
+            "values": [
+                "statistical sub-grid scale variance"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.overview": {
+            "values": [
+                "For non-orographic waves, spectrum of east-west and north-south waves are launched. Each breaks according to its own critical level. Orographic waves do not break above 30 hPa."
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.subgrid_scale_orography": {
+            "values": [
+                "effect on drag"
+            ]
+        }, 
+        "cmip6.atmos.grid.discretisation.horizontal.scheme_method": {
+            "values": [
+                "finite volumes"
+            ]
+        }, 
+        "cmip6.atmos.grid.discretisation.horizontal.scheme_type": {
+            "values": [
+                "fixed grid"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.basic_approximations": {
+            "values": [
+                "hydrostatic", 
+                "primitive equations"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.model_family": {
+            "values": [
+                "AGCM"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.name": {
+            "values": [
+                "GFDL atmospheric component: c48L48_am3p9"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.orography.type": {
+            "values": [
+                "Other: present day"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.timestepping.timestep_dynamics": {
+            "values": [
+                30
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_cloud_microphysics.processes": {
+            "values": [
+                "cloud droplets", 
+                "cloud ice", 
+                "mixed phase", 
+                "water vapour deposition"
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_cloud_microphysics.scheme_name": {
+            "values": [
+                "Rotstayn (1997) and Ming et al. (2006)"
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_precipitation.hydrometeors": {
+            "values": [
+                "liquid rain", 
+                "snow"
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_precipitation.scheme_name": {
+            "values": [
+                "Tiedtke (1993)"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.insolation_ozone.solar_ozone_impact": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.orbital_parameters.fixed_reference_date": {
+            "values": [
+                23
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.orbital_parameters.type": {
+            "values": [
+                "fixed"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.solar_constant.transient_characteristics": {
+            "values": [
+                "From Kopp et al. (2005, Solar Physics)"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.solar_constant.type": {
+            "values": [
+                "transient"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.volcanoes_treatment.volcanoes_implementation": {
+            "values": [
+                "Other: via stratospheric aerosols optical thickness"
+            ]
+        }, 
+        "cmip6.atmos.radiation.aerosols": {
+            "values": [
+                "BC (black carbon / soot)", 
+                "dust", 
+                "organic", 
+                "sea salt", 
+                "sulphate"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.spectral_intervals": {
+            "values": [
+                10
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.transport_calculation": {
+            "values": [
+                "layer interaction"
+            ]
+        }, 
+        "cmip6.atmos.radiation.overview": {
+            "values": [
+                "The basic shortwave and longwave radiation algorithms are described in Freidenreich and\r\nRamaswamy (1999) and Schwarzkopf and Ramaswamy (1999), respectively,\r\nmodified as in GFDL Global Atmospheric Model Development Team (2004)."
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_radiation.spectral_integration": {
+            "values": [
+                "wide-band model"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_radiation.spectral_intervals": {
+            "values": [
+                18
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.counter_gradient": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.scheme_type": {
+            "values": [
+                "vertical profile of Kz"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.processes": {
+            "values": [
+                "convective momentum transport", 
+                "detrainment", 
+                "entrainment", 
+                "penetrative convection", 
+                "radiative effect of anvils", 
+                "updrafts", 
+                "vertical momentum transport"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.scheme_method": {
+            "values": [
+                "CAPE"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.scheme_name": {
+            "values": [
+                "Donner(1993) deep cumulus"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.scheme_type": {
+            "values": [
+                "mass-flux"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.shallow_convection.scheme_method": {
+            "values": [
+                "separate diagnosis"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.shallow_convection.scheme_name": {
+            "values": [
+                "Bretherton et al. (2004)"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.shallow_convection.scheme_type": {
+            "values": [
+                "mass-flux"
+            ]
+        }
+    }
+}

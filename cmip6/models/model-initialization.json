@@ -1,0 +1,106 @@
+{
+    "gfdl-am4": {
+        "aerosol": {
+            "initializedFrom": "cmip5:gfdl-cm3"
+        }, 
+        "atmos": {
+            "initializedFrom": "cmip5:gfdl-cm3"
+        }, 
+        "atmoschem": {
+            "initializedFrom": "cmip5:gfdl-cm3"
+        }, 
+        "land": {
+            "initializedFrom": "cmip5:gfdl-cm3"
+        }, 
+        "landice": {
+            "initializedFrom": "cmip5:gfdl-cm3"
+        }, 
+        "toplevel": {
+            "initializedFrom": "cmip5:gfdl-cm3"
+        }
+    }, 
+    "gfdl-cm4": {
+        "aerosol": {
+            "initializedFrom": ""
+        }, 
+        "atmos": {
+            "initializedFrom": ""
+        }, 
+        "atmoschem": {
+            "initializedFrom": ""
+        }, 
+        "land": {
+            "initializedFrom": ""
+        }, 
+        "landice": {
+            "initializedFrom": ""
+        }, 
+        "ocean": {
+            "initializedFrom": "cmip5:gfdl-cm3"
+        }, 
+        "ocnbgchem": {
+            "initializedFrom": "cmip5:gfdl-cm3"
+        }, 
+        "seaice": {
+            "initializedFrom": "cmip5:gfdl-cm3"
+        }, 
+        "toplevel": {
+            "initializedFrom": "cmip5:gfdl-cm3"
+        }
+    }, 
+    "gfdl-esm2m": {
+        "aerosol": {
+            "initializedFrom": "cmip5:gfdl-esm2m"
+        }, 
+        "atmos": {
+            "initializedFrom": "cmip5:gfdl-esm2m"
+        }, 
+        "atmoschem": {
+            "initializedFrom": "cmip5:gfdl-esm2m"
+        }, 
+        "land": {
+            "initializedFrom": "cmip5:gfdl-esm2m"
+        }, 
+        "landice": {
+            "initializedFrom": "cmip5:gfdl-esm2m"
+        }, 
+        "ocean": {
+            "initializedFrom": "cmip5:gfdl-esm2m"
+        }, 
+        "seaice": {
+            "initializedFrom": "cmip5:gfdl-esm2m"
+        }, 
+        "toplevel": {
+            "initializedFrom": "cmip5:gfdl-esm2m"
+        }
+    }, 
+    "gfdl-esm4": {
+        "aerosol": {
+            "initializedFrom": ""
+        }, 
+        "atmos": {
+            "initializedFrom": ""
+        }, 
+        "atmoschem": {
+            "initializedFrom": "cmip5:gfdl-cm3"
+        }, 
+        "land": {
+            "initializedFrom": ""
+        }, 
+        "landice": {
+            "initializedFrom": ""
+        }, 
+        "ocean": {
+            "initializedFrom": ""
+        }, 
+        "ocnbgchem": {
+            "initializedFrom": "cmip5:gfdl-esm2m"
+        }, 
+        "seaice": {
+            "initializedFrom": ""
+        }, 
+        "toplevel": {
+            "initializedFrom": ""
+        }
+    }
+}

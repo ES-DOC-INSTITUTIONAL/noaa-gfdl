@@ -1,0 +1,100 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "noaa-gfdl", 
+    "seedingSource": "cmip5:gfdl-cm3", 
+    "sourceID": "gfdl-am4", 
+    "topic": "aerosol", 
+    "authors": [], 
+    "contributors": [], 
+    "content": {
+        "cmip6.aerosol.concentrations.prescribed_lower_boundary": {
+            "values": [
+                "N/A"
+            ]
+        }, 
+        "cmip6.aerosol.concentrations.prescribed_upper_boundary": {
+            "values": [
+                "N/A"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.basic_approximations": {
+            "values": [
+                "Bulk aerosol model"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.family_approach": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.name": {
+            "values": [
+                "GFDL AM3 Predicted Aerosols"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.number_of_tracers": {
+            "values": [
+                16
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.prognostic_variables_form": {
+            "values": [
+                "Other: 3d mass/volume mixing ratio for aerosols"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.scheme_scope": {
+            "values": [
+                "whole atmosphere"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.timestep_framework.method": {
+            "values": [
+                "Other: uses atmosphericchemistry time stepping"
+            ]
+        }, 
+        "cmip6.aerosol.model.bulk_scheme_species": {
+            "values": [
+                "Organic", 
+                "Other: bc (black carbon / soot)", 
+                "POM (particulate organic matter)", 
+                "SOA (secondary organic aerosols)", 
+                "Sulphate"
+            ]
+        }, 
+        "cmip6.aerosol.model.coupling": {
+            "values": [
+                "Clouds", 
+                "Other: heterogeneouschemistry", 
+                "Other: landsurface", 
+                "Radiation"
+            ]
+        }, 
+        "cmip6.aerosol.model.gas_phase_precursors": {
+            "values": [
+                "DMS", 
+                "SO2", 
+                "Terpene"
+            ]
+        }, 
+        "cmip6.aerosol.model.processes": {
+            "values": [
+                "Advection (horizontal)", 
+                "Advection (vertical)", 
+                "Ageing", 
+                "Dry deposition", 
+                "Heterogeneous chemistry", 
+                "Oxidation (gas phase)", 
+                "Oxidation (in cloud)", 
+                "Sedimentation", 
+                "Wet deposition (impaction scavenging)", 
+                "Wet deposition (nucleation scavenging)"
+            ]
+        }, 
+        "cmip6.aerosol.model.scheme_type": {
+            "values": [
+                "Bin", 
+                "Bulk"
+            ]
+        }
+    }
+}
