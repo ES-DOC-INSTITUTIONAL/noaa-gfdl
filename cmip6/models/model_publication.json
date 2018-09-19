@@ -1,0 +1,106 @@
+{
+    "gfdl-am4": {
+        "toplevel": {
+            "publish": "off"
+        }, 
+        "aerosol": {
+            "publish": "off"
+        }, 
+        "atmoschem": {
+            "publish": "off"
+        }, 
+        "atmos": {
+            "publish": "off"
+        }, 
+        "land": {
+            "publish": "off"
+        }, 
+        "landice": {
+            "publish": "off"
+        } 
+    },
+    "gfdl-cm4": {
+        "toplevel": {
+            "publish": "off"
+        }, 
+        "aerosol": {
+            "publish": "off"
+        }, 
+        "atmoschem": {
+            "publish": "off"
+        }, 
+        "atmos": {
+            "publish": "off"
+        }, 
+        "land": {
+            "publish": "off"
+        }, 
+        "landice": {
+            "publish": "off"
+        }, 
+        "ocean": {
+            "publish": "off"
+        }, 
+        "ocnbgchem": {
+            "publish": "off"
+        }, 
+        "seaice": {
+            "publish": "off"
+        } 
+    },
+    "gfdl-esm2m": {
+        "toplevel": {
+            "publish": "off"
+        }, 
+        "aerosol": {
+            "publish": "off"
+        }, 
+        "atmoschem": {
+            "publish": "off"
+        }, 
+        "atmos": {
+            "publish": "off"
+        }, 
+        "land": {
+            "publish": "off"
+        }, 
+        "landice": {
+            "publish": "off"
+        }, 
+        "ocean": {
+            "publish": "off"
+        }, 
+        "seaice": {
+            "publish": "off"
+        }
+    },
+    "gfdl-esm4": {
+        "toplevel": {
+            "publish": "off"
+        }, 
+        "aerosol": {
+            "publish": "off"
+        }, 
+        "atmoschem": {
+            "publish": "off"
+        }, 
+        "atmos": {
+            "publish": "off"
+        }, 
+        "land": {
+            "publish": "off"
+        }, 
+        "landice": {
+            "publish": "off"
+        }, 
+        "ocean": {
+            "publish": "off"
+        }, 
+        "ocnbgchem": {
+            "publish": "off"
+        }, 
+        "seaice": {
+            "publish": "off"
+        } 
+    }
+}
