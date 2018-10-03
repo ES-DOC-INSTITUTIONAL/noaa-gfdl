@@ -1,0 +1,16 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "noaa-gfdl", 
+    "seedingSource": "cmip5:gfdl-cm3", 
+    "sourceID": "gfdl-am4", 
+    "topic": "toplevel", 
+    "authors": [], 
+    "contributors": [], 
+    "content": {
+        "cmip6.toplevel.key_properties.name": {
+            "values": [
+                "GFDL-CM3, Geophysical Fluid Dynamics Laboratory"
+            ]
+        }
+    }
+}

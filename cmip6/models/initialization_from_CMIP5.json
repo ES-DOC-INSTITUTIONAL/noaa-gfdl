@@ -1,7 +1,7 @@
 {
     "gfdl-am4": {
         "toplevel": {
-            "initializedFrom": ""
+            "initializedFrom": "cmip5:gfdl-cm3"
         }, 
         "aerosol": {
             "initializedFrom": "cmip5:gfdl-cm3"
@@ -76,7 +76,7 @@
     }, 
     "gfdl-esm2m": {
         "toplevel": {
-            "initializedFrom": ""
+            "initializedFrom": "cmip5:gfdl-esm2m"
         }, 
         "aerosol": {
             "initializedFrom": "cmip5:gfdl-esm2m"

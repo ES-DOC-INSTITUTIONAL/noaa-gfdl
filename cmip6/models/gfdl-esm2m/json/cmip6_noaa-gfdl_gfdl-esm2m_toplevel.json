@@ -1,0 +1,16 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "noaa-gfdl", 
+    "seedingSource": "cmip5:gfdl-esm2m", 
+    "sourceID": "gfdl-esm2m", 
+    "topic": "toplevel", 
+    "authors": [], 
+    "contributors": [], 
+    "content": {
+        "cmip6.toplevel.key_properties.name": {
+            "values": [
+                "GFDL-CM2.1, Geophysical Fluid Dynamics Laboratory"
+            ]
+        }
+    }
+}
