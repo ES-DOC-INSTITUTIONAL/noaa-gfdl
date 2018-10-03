@@ -6,10 +6,10 @@
         "aerosol": {
             "publish": "off"
         }, 
-        "atmoschem": {
+        "atmos": {
             "publish": "off"
         }, 
-        "atmos": {
+        "atmoschem": {
             "publish": "off"
         }, 
         "land": {
@@ -17,8 +17,8 @@
         }, 
         "landice": {
             "publish": "off"
-        } 
-    },
+        }
+    }, 
     "gfdl-cm4": {
         "toplevel": {
             "publish": "off"
@@ -26,10 +26,10 @@
         "aerosol": {
             "publish": "off"
         }, 
-        "atmoschem": {
+        "atmos": {
             "publish": "off"
         }, 
-        "atmos": {
+        "atmoschem": {
             "publish": "off"
         }, 
         "land": {
@@ -46,19 +46,19 @@
         }, 
         "seaice": {
             "publish": "off"
-        } 
-    },
-    "gfdl-esm2m": {
+        }
+    }, 
+    "gfdl-cm4c192": {
         "toplevel": {
             "publish": "off"
         }, 
         "aerosol": {
             "publish": "off"
         }, 
-        "atmoschem": {
+        "atmos": {
             "publish": "off"
         }, 
-        "atmos": {
+        "atmoschem": {
             "publish": "off"
         }, 
         "land": {
@@ -73,18 +73,18 @@
         "seaice": {
             "publish": "off"
         }
-    },
-    "gfdl-esm4": {
+    }, 
+    "gfdl-esm2m": {
         "toplevel": {
             "publish": "off"
         }, 
         "aerosol": {
             "publish": "off"
         }, 
-        "atmoschem": {
+        "atmos": {
             "publish": "off"
         }, 
-        "atmos": {
+        "atmoschem": {
             "publish": "off"
         }, 
         "land": {
@@ -101,6 +101,49 @@
         }, 
         "seaice": {
             "publish": "off"
-        } 
+        }
+    }, 
+    "gfdl-esm4": {
+        "toplevel": {
+            "publish": "off"
+        }, 
+        "aerosol": {
+            "publish": "off"
+        }, 
+        "atmos": {
+            "publish": "off"
+        }, 
+        "atmoschem": {
+            "publish": "off"
+        }, 
+        "land": {
+            "publish": "off"
+        }, 
+        "landice": {
+            "publish": "off"
+        }, 
+        "ocean": {
+            "publish": "off"
+        }, 
+        "ocnbgchem": {
+            "publish": "off"
+        }, 
+        "seaice": {
+            "publish": "off"
+        }
+    }, 
+    "gfdl-om4p5b": {
+        "toplevel": {
+            "publish": "off"
+        }, 
+        "ocean": {
+            "publish": "off"
+        }, 
+        "ocnbgchem": {
+            "publish": "off"
+        }, 
+        "seaice": {
+            "publish": "off"
+        }
     }
 }

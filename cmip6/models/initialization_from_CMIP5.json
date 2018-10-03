@@ -1,5 +1,8 @@
 {
     "gfdl-am4": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "aerosol": {
             "initializedFrom": "cmip5:gfdl-cm3"
         }, 
@@ -13,13 +16,13 @@
             "initializedFrom": "cmip5:gfdl-cm3"
         }, 
         "landice": {
-            "initializedFrom": "cmip5:gfdl-cm3"
-        }, 
-        "toplevel": {
             "initializedFrom": "cmip5:gfdl-cm3"
         }
     }, 
     "gfdl-cm4": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "aerosol": {
             "initializedFrom": ""
         }, 
@@ -43,12 +46,38 @@
         }, 
         "seaice": {
             "initializedFrom": "cmip5:gfdl-cm3"
-        }, 
+        }
+    }, 
+    "gfdl-cm4c192": {
         "toplevel": {
-            "initializedFrom": "cmip5:gfdl-cm3"
+            "initializedFrom": ""
+        }, 
+        "aerosol": {
+            "initializedFrom": ""
+        }, 
+        "atmos": {
+            "initializedFrom": ""
+        }, 
+        "atmoschem": {
+            "initializedFrom": ""
+        }, 
+        "land": {
+            "initializedFrom": ""
+        }, 
+        "landice": {
+            "initializedFrom": ""
+        }, 
+        "ocean": {
+            "initializedFrom": ""
+        }, 
+        "seaice": {
+            "initializedFrom": ""
         }
     }, 
     "gfdl-esm2m": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "aerosol": {
             "initializedFrom": "cmip5:gfdl-esm2m"
         }, 
@@ -67,14 +96,17 @@
         "ocean": {
             "initializedFrom": "cmip5:gfdl-esm2m"
         }, 
-        "seaice": {
-            "initializedFrom": "cmip5:gfdl-esm2m"
+        "ocnbgchem": {
+            "initializedFrom": ""
         }, 
-        "toplevel": {
+        "seaice": {
             "initializedFrom": "cmip5:gfdl-esm2m"
         }
     }, 
     "gfdl-esm4": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "aerosol": {
             "initializedFrom": ""
         }, 
@@ -98,8 +130,19 @@
         }, 
         "seaice": {
             "initializedFrom": ""
-        }, 
+        }
+    }, 
+    "gfdl-om4p5b": {
         "toplevel": {
+            "initializedFrom": ""
+        }, 
+        "ocean": {
+            "initializedFrom": ""
+        }, 
+        "ocnbgchem": {
+            "initializedFrom": ""
+        }, 
+        "seaice": {
             "initializedFrom": ""
         }
     }
