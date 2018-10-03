@@ -177,8 +177,8 @@
         }, 
         "cmip6.land.soil.heat_treatment.processes": {
             "values": [
-                "Other: plant uptake and ground divergence", 
-                "soil moisture freeze-thaw"
+                "soil moisture freeze-thaw", 
+                "Other: plant uptake and ground divergence"
             ]
         }, 
         "cmip6.land.soil.hydrology.freezing.ice_storage_method": {
