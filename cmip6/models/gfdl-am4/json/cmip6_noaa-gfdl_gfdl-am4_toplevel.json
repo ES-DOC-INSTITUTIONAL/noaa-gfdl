@@ -1,11 +1,9 @@
 {
     "mipEra": "cmip6", 
     "institute": "noaa-gfdl", 
-    "seedingSource": "cmip5:gfdl-cm3", 
+    "seedingSource": null, 
     "sourceID": "gfdl-am4", 
     "topic": "toplevel", 
-    "authors": [], 
-    "contributors": [], 
     "content": {
         "cmip6.toplevel.key_properties.name": {
             "values": [

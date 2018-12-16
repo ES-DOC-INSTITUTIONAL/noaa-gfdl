@@ -1,84 +1,21 @@
 {
     "mipEra": "cmip6", 
     "institute": "noaa-gfdl", 
-    "seedingSource": "cmip5:gfdl-cm3", 
+    "seedingSource": null, 
     "sourceID": "gfdl-am4", 
     "topic": "atmoschem", 
-    "authors": [], 
-    "contributors": [], 
     "content": {
-        "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_climatology_emitted_species": {
+        "cmip6.atmoschem.key_properties.name": {
             "values": [
-                "CO, CH2O, NO, C3H6, isoprene, C2H6, C2H4, C4H10, terpenes, C3H8, acetone, CH3OH, C2H5OH, H2, SO2, NH3"
+                "GFDL atmospheric chemistry"
             ]
         }, 
-        "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.sources": {
+        "cmip6.atmoschem.key_properties.chemistry_scheme_scope": {
             "values": [
-                "Aircraft", 
-                "Biomass burning", 
-                "Lightning", 
-                "Other: volcanoes"
-            ]
-        }, 
-        "cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_lower_boundary": {
-            "values": [
-                "CH4, N2O"
-            ]
-        }, 
-        "cmip6.atmoschem.emissions_concentrations.surface_emissions.interactive_emitted_species": {
-            "values": [
-                "DMS"
-            ]
-        }, 
-        "cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_climatology_emitted_species": {
-            "values": [
-                "CO, CH2O, NO, C3H6, isoprene, C2H6, C2H4, C4H10, terpenes, C3H8, acetone, CH3OH, C2H5OH, H2, SO2, NH3"
-            ]
-        }, 
-        "cmip6.atmoschem.emissions_concentrations.surface_emissions.sources": {
-            "values": [
-                "Anthropogenic", 
-                "Other: bare ground", 
-                "Sea surface", 
-                "Vegetation"
-            ]
-        }, 
-        "cmip6.atmoschem.gas_phase_chemistry.number_of_bimolecular_reactions": {
-            "values": [
-                157
-            ]
-        }, 
-        "cmip6.atmoschem.gas_phase_chemistry.number_of_steady_state_species": {
-            "values": [
-                19
-            ]
-        }, 
-        "cmip6.atmoschem.gas_phase_chemistry.number_of_termolecular_reactions": {
-            "values": [
-                21
-            ]
-        }, 
-        "cmip6.atmoschem.gas_phase_chemistry.species": {
-            "values": [
-                "Bry", 
-                "Cly", 
-                "H2O", 
-                "HOx", 
-                "NOy", 
-                "Other: sox", 
-                "Ox", 
-                "VOCs", 
-                "isoprene"
-            ]
-        }, 
-        "cmip6.atmoschem.gas_phase_chemistry.wet_deposition": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.atmoschem.gas_phase_chemistry.wet_oxidation": {
-            "values": [
-                true
+                "Other: troposphere", 
+                "Mesosphere", 
+                "Stratosphere", 
+                "Whole atmosphere"
             ]
         }, 
         "cmip6.atmoschem.key_properties.basic_approximations": {
@@ -86,27 +23,14 @@
                 "Lumped higher hydrocarbon species and oxidation products, parameterized source of Cly and Bry in stratosphere, short-lived species not advected"
             ]
         }, 
-        "cmip6.atmoschem.key_properties.chemistry_scheme_scope": {
+        "cmip6.atmoschem.key_properties.number_of_tracers": {
             "values": [
-                "Other: troposphere", 
-                "mesosphere", 
-                "stratosphere", 
-                "whole atmosphere"
+                82
             ]
         }, 
         "cmip6.atmoschem.key_properties.coupling_with_chemical_reactivity": {
             "values": [
                 true
-            ]
-        }, 
-        "cmip6.atmoschem.key_properties.name": {
-            "values": [
-                "GFDL atmospheric chemistry"
-            ]
-        }, 
-        "cmip6.atmoschem.key_properties.number_of_tracers": {
-            "values": [
-                82
             ]
         }, 
         "cmip6.atmoschem.key_properties.timestep_framework.method": {
@@ -124,28 +48,71 @@
                 30
             ]
         }, 
-        "cmip6.atmoschem.photo_chemistry.number_of_reactions": {
+        "cmip6.atmoschem.emissions_concentrations.surface_emissions.sources": {
             "values": [
-                39
+                "Anthropogenic", 
+                "Other: bare ground", 
+                "Sea surface", 
+                "Vegetation"
             ]
         }, 
-        "cmip6.atmoschem.photo_chemistry.overview": {
+        "cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_climatology_emitted_species": {
             "values": [
-                "Clear-sky photolysis frequencies are calculated using a multivariate interpolation table derived from the Tropospheric Ultraviolet-Visible radiation model (Madronich and Flocke, 1998), with an adjustment applied for the effects of large-scale clouds, as described by Brasseur et al. (1998)."
+                "CO, CH2O, NO, C3H6, isoprene, C2H6, C2H4, C4H10, terpenes, C3H8, acetone, CH3OH, C2H5OH, H2, SO2, NH3"
             ]
         }, 
-        "cmip6.atmoschem.photo_chemistry.photolysis.method": {
+        "cmip6.atmoschem.emissions_concentrations.surface_emissions.interactive_emitted_species": {
             "values": [
-                "Offline (with clouds)"
+                "DMS"
             ]
         }, 
-        "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.aerosol_species": {
+        "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.sources": {
             "values": [
-                "NAT (Nitric acid trihydrate)", 
-                "Polar stratospheric ice"
+                "Aircraft", 
+                "Biomass burning", 
+                "Lightning", 
+                "Other: volcanoes"
             ]
         }, 
-        "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.coagulation": {
+        "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_climatology_emitted_species": {
+            "values": [
+                "CO, CH2O, NO, C3H6, isoprene, C2H6, C2H4, C4H10, terpenes, C3H8, acetone, CH3OH, C2H5OH, H2, SO2, NH3"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_lower_boundary": {
+            "values": [
+                "CH4, N2O"
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.species": {
+            "values": [
+                "Bry", 
+                "Cly", 
+                "H2O", 
+                "HOx", 
+                "NOy", 
+                "Other: sox", 
+                "Ox", 
+                "VOCs", 
+                "Isoprene"
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.number_of_bimolecular_reactions": {
+            "values": [
+                157
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.number_of_termolecular_reactions": {
+            "values": [
+                21
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.number_of_steady_state_species": {
+            "values": [
+                19
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.wet_deposition": {
             "values": [
                 true
             ]
@@ -155,6 +122,12 @@
                 "Bry", 
                 "Cly", 
                 "NOy"
+            ]
+        }, 
+        "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.aerosol_species": {
+            "values": [
+                "NAT (Nitric acid trihydrate)", 
+                "Polar stratospheric ice"
             ]
         }, 
         "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.number_of_steady_state_species": {
@@ -167,19 +140,29 @@
                 true
             ]
         }, 
+        "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.gas_phase_species": {
+            "values": [
+                "3"
+            ]
+        }, 
         "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.aerosol_species": {
             "values": [
                 "Sulphate"
             ]
         }, 
-        "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.coagulation": {
+        "cmip6.atmoschem.photo_chemistry.overview": {
             "values": [
-                true
+                "Clear-sky photolysis frequencies are calculated using a multivariate interpolation table derived from the Tropospheric Ultraviolet-Visible radiation model (Madronich and Flocke, 1998), with an adjustment applied for the effects of large-scale clouds, as described by Brasseur et al. (1998)."
             ]
         }, 
-        "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.gas_phase_species": {
+        "cmip6.atmoschem.photo_chemistry.number_of_reactions": {
             "values": [
-                "3"
+                39
+            ]
+        }, 
+        "cmip6.atmoschem.photo_chemistry.photolysis.method": {
+            "values": [
+                "Offline (with clouds)"
             ]
         }
     }

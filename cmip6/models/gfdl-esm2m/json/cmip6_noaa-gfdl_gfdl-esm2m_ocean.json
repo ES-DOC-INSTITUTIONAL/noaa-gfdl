@@ -1,86 +1,13 @@
 {
     "mipEra": "cmip6", 
     "institute": "noaa-gfdl", 
-    "seedingSource": "cmip5:gfdl-esm2m", 
+    "seedingSource": null, 
     "sourceID": "gfdl-esm2m", 
     "topic": "ocean", 
-    "authors": [], 
-    "contributors": [], 
     "content": {
-        "cmip6.ocean.advection.lateral_tracers.flux_limiter": {
+        "cmip6.ocean.key_properties.name": {
             "values": [
-                true
-            ]
-        }, 
-        "cmip6.ocean.advection.lateral_tracers.name": {
-            "values": [
-                "Piecewise Parabolic method"
-            ]
-        }, 
-        "cmip6.ocean.advection.momentum.scheme_name": {
-            "values": [
-                "2nd order centered"
-            ]
-        }, 
-        "cmip6.ocean.advection.momentum.type": {
-            "values": [
-                "Flux form"
-            ]
-        }, 
-        "cmip6.ocean.advection.overview": {
-            "values": [
-                "vertical tracer advection use PPM"
-            ]
-        }, 
-        "cmip6.ocean.advection.vertical_tracers.flux_limiter": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.geothermal_heating": {
-            "values": [
-                "Spatial varying"
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.momentum.bottom_friction.type": {
-            "values": [
-                "Non-linear"
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.momentum.lateral_friction.type": {
-            "values": [
-                "No-slip"
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.momentum_flux_correction": {
-            "values": [
-                "No"
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration.ocean_colour": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.ocean.grid.discretisation.horizontal.scheme": {
-            "values": [
-                "Other: finite differences"
-            ]
-        }, 
-        "cmip6.ocean.key_properties.basic_approximations": {
-            "values": [
-                "Boussinesq", 
-                "Primitive equations"
-            ]
-        }, 
-        "cmip6.ocean.key_properties.bathymetry.reference_dates": {
-            "values": [
-                "Present day"
-            ]
-        }, 
-        "cmip6.ocean.key_properties.bathymetry.type": {
-            "values": [
-                true
+                "GFDL MOM4p1"
             ]
         }, 
         "cmip6.ocean.key_properties.model_family": {
@@ -88,19 +15,10 @@
                 "OGCM"
             ]
         }, 
-        "cmip6.ocean.key_properties.name": {
+        "cmip6.ocean.key_properties.basic_approximations": {
             "values": [
-                "GFDL MOM4p1"
-            ]
-        }, 
-        "cmip6.ocean.key_properties.nonoceanic_waters.isolated_seas": {
-            "values": [
-                "Yes"
-            ]
-        }, 
-        "cmip6.ocean.key_properties.nonoceanic_waters.river_mouth": {
-            "values": [
-                "Mix over top 40 m"
+                "Boussinesq", 
+                "Primitive equations"
             ]
         }, 
         "cmip6.ocean.key_properties.prognostic_variables": {
@@ -123,14 +41,54 @@
                 "Other: varying"
             ]
         }, 
-        "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.coeff_background": {
+        "cmip6.ocean.key_properties.bathymetry.reference_dates": {
             "values": [
-                "Western boundary enhanced background plus weak laplacian"
+                "Present day"
             ]
         }, 
-        "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.type": {
+        "cmip6.ocean.key_properties.bathymetry.type": {
             "values": [
-                "Time + space varying (Smagorinsky)"
+                true
+            ]
+        }, 
+        "cmip6.ocean.key_properties.nonoceanic_waters.isolated_seas": {
+            "values": [
+                "Yes"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.nonoceanic_waters.river_mouth": {
+            "values": [
+                "Mix over top 40 m"
+            ]
+        }, 
+        "cmip6.ocean.timestepping_framework.tracers.scheme": {
+            "values": [
+                "Forward-backward"
+            ]
+        }, 
+        "cmip6.ocean.advection.overview": {
+            "values": [
+                "vertical tracer advection use PPM"
+            ]
+        }, 
+        "cmip6.ocean.advection.momentum.type": {
+            "values": [
+                "Flux form"
+            ]
+        }, 
+        "cmip6.ocean.advection.momentum.scheme_name": {
+            "values": [
+                "2nd order centered"
+            ]
+        }, 
+        "cmip6.ocean.advection.lateral_tracers.flux_limiter": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocean.advection.lateral_tracers.name": {
+            "values": [
+                "Piecewise Parabolic method"
             ]
         }, 
         "cmip6.ocean.lateral_physics.momentum.operator.direction": {
@@ -138,44 +96,24 @@
                 "Iso-level"
             ]
         }, 
-        "cmip6.ocean.lateral_physics.momentum.operator.discretisation": {
-            "values": [
-                "Second order"
-            ]
-        }, 
         "cmip6.ocean.lateral_physics.momentum.operator.order": {
             "values": [
                 "Bi-harmonic"
             ]
         }, 
-        "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.coeff_background": {
+        "cmip6.ocean.lateral_physics.momentum.operator.discretisation": {
             "values": [
-                600
+                "Second order"
             ]
         }, 
-        "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.constant_coefficient": {
+        "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.type": {
             "values": [
-                600
+                "Time + space varying (Smagorinsky)"
             ]
         }, 
-        "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.type": {
+        "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.coeff_background": {
             "values": [
-                "Constant"
-            ]
-        }, 
-        "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.added_diffusivity": {
-            "values": [
-                "Flow dependent"
-            ]
-        }, 
-        "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.flux_type": {
-            "values": [
-                "Skew flux"
-            ]
-        }, 
-        "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.type": {
-            "values": [
-                "GM"
+                "Western boundary enhanced background plus weak laplacian"
             ]
         }, 
         "cmip6.ocean.lateral_physics.tracers.mesoscale_closure": {
@@ -188,47 +126,42 @@
                 "Isoneutral"
             ]
         }, 
-        "cmip6.ocean.lateral_physics.tracers.operator.discretisation": {
-            "values": [
-                "Second order"
-            ]
-        }, 
         "cmip6.ocean.lateral_physics.tracers.operator.order": {
             "values": [
                 "Harmonic"
             ]
         }, 
-        "cmip6.ocean.timestepping_framework.tracers.scheme": {
+        "cmip6.ocean.lateral_physics.tracers.operator.discretisation": {
             "values": [
-                "Forward-backward"
+                "Second order"
             ]
         }, 
-        "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.lateral_mixing_coef": {
+        "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.type": {
             "values": [
-                100
+                "Constant"
             ]
         }, 
-        "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.sill_overflow": {
+        "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.constant_coefficient": {
             "values": [
-                "Specific treatment"
+                600
             ]
         }, 
-        "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.type_of_bbl": {
+        "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.coeff_background": {
             "values": [
-                "Diffusive"
+                600
             ]
         }, 
-        "cmip6.ocean.uplow_boundaries.free_surface.scheme": {
+        "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.type": {
             "values": [
-                "Non-linear semi-explicit"
+                "GM"
             ]
         }, 
-        "cmip6.ocean.vertical_physics.boundary_layer_mixing.momentum.background": {
+        "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.flux_type": {
             "values": [
-                "1e-4 m**2/s"
+                "Skew flux"
             ]
         }, 
-        "cmip6.ocean.vertical_physics.boundary_layer_mixing.momentum.type": {
+        "cmip6.ocean.vertical_physics.boundary_layer_mixing.tracers.type": {
             "values": [
                 "Turbulent closure - KPP"
             ]
@@ -238,9 +171,14 @@
                 "Constant 10**-5 m**2/s"
             ]
         }, 
-        "cmip6.ocean.vertical_physics.boundary_layer_mixing.tracers.type": {
+        "cmip6.ocean.vertical_physics.boundary_layer_mixing.momentum.type": {
             "values": [
                 "Turbulent closure - KPP"
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.boundary_layer_mixing.momentum.background": {
+            "values": [
+                "1e-4 m**2/s"
             ]
         }, 
         "cmip6.ocean.vertical_physics.interior_mixing.details.convection_type": {
@@ -253,14 +191,49 @@
                 "Baroclinic tides, Barotropic tides"
             ]
         }, 
-        "cmip6.ocean.vertical_physics.interior_mixing.momentum.background": {
-            "values": [
-                "1e-4 m**2/s"
-            ]
-        }, 
         "cmip6.ocean.vertical_physics.interior_mixing.tracers.background": {
             "values": [
                 "10**-5 m**2/s"
+            ]
+        }, 
+        "cmip6.ocean.uplow_boundaries.free_surface.scheme": {
+            "values": [
+                "Non-linear semi-explicit"
+            ]
+        }, 
+        "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.type_of_bbl": {
+            "values": [
+                "Diffusive"
+            ]
+        }, 
+        "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.lateral_mixing_coef": {
+            "values": [
+                100
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.momentum_flux_correction": {
+            "values": [
+                "No"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.geothermal_heating": {
+            "values": [
+                "Spatial varying"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.momentum.bottom_friction.type": {
+            "values": [
+                "Non-linear"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.momentum.lateral_friction.type": {
+            "values": [
+                "No-slip"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration.ocean_colour": {
+            "values": [
+                true
             ]
         }
     }

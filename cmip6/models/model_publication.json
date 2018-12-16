@@ -7,7 +7,7 @@
             "publish": "off"
         }, 
         "atmos": {
-            "publish": "on"
+            "publish": "off"
         }, 
         "atmoschem": {
             "publish": "off"
