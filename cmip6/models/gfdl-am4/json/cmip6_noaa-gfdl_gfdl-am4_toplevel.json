@@ -1,7 +1,7 @@
 {
     "mipEra": "cmip6", 
     "institute": "noaa-gfdl", 
-    "seedingSource": null, 
+    "seedingSource": "cmip5:gfdl-cm3", 
     "sourceID": "gfdl-am4", 
     "topic": "toplevel", 
     "content": {

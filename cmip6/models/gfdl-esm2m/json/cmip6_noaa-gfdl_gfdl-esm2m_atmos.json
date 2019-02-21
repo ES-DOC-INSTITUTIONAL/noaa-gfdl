@@ -1,68 +1,80 @@
 {
     "mipEra": "cmip6", 
     "institute": "noaa-gfdl", 
-    "seedingSource": null, 
+    "seedingSource": "cmip5:gfdl-esm2m", 
     "sourceID": "gfdl-esm2m", 
     "topic": "atmos", 
     "content": {
-        "cmip6.atmos.key_properties.name": {
+        "cmip6.atmos.cloud_scheme.processes": {
             "values": [
-                "gfdl atmospheric component: AM2p13"
+                "Other: klein"
             ]
         }, 
-        "cmip6.atmos.key_properties.model_family": {
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_water_distribution.convection_coupling": {
             "values": [
-                "AGCM"
+                "coupled with deep", 
+                "coupled with shallow"
             ]
         }, 
-        "cmip6.atmos.key_properties.basic_approximations": {
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_water_distribution.function_name": {
             "values": [
-                "Hydrostatic", 
-                "Primitive equations"
+                "Klein"
             ]
         }, 
-        "cmip6.atmos.key_properties.timestepping.timestep_dynamics": {
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_water_distribution.type": {
             "values": [
-                600
+                "diagnostic"
             ]
         }, 
-        "cmip6.atmos.key_properties.orography.type": {
+        "cmip6.atmos.cloud_scheme.uses_separate_treatment": {
             "values": [
-                "Other: present day"
+                "Yes"
             ]
         }, 
-        "cmip6.atmos.grid.discretisation.horizontal.scheme_type": {
+        "cmip6.atmos.dynamical_core.advection.momentum.conserved_quantities": {
             "values": [
-                "Fixed grid"
+                "Other: unknown"
             ]
         }, 
-        "cmip6.atmos.grid.discretisation.horizontal.scheme_method": {
+        "cmip6.atmos.dynamical_core.advection.momentum.scheme_characteristics": {
             "values": [
-                "Finite volumes"
+                "4th order"
             ]
         }, 
-        "cmip6.atmos.grid.discretisation.horizontal.horizontal_pole": {
+        "cmip6.atmos.dynamical_core.advection.tracers.conserved_quantities": {
             "values": [
-                "Filter"
+                "Other: mass"
             ]
         }, 
-        "cmip6.atmos.dynamical_core.timestepping_type": {
+        "cmip6.atmos.dynamical_core.advection.tracers.scheme_characteristics": {
             "values": [
-                "Multi-step"
+                "finite volume"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.diffusion_horizontal.scheme_name": {
+            "values": [
+                "GFDL FV core"
             ]
         }, 
         "cmip6.atmos.dynamical_core.prognostic_variables": {
             "values": [
-                "Other: vapour/solid/liquid", 
-                "Clouds", 
-                "Potential temperature", 
-                "Surface pressure", 
-                "Wind components"
+                "clouds", 
+                "potential temperature", 
+                "surface pressure", 
+                "water ice", 
+                "water liquid", 
+                "water vapour", 
+                "wind components"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.timestepping_type": {
+            "values": [
+                "multi-step"
             ]
         }, 
         "cmip6.atmos.dynamical_core.top_boundary.top_boundary_condition": {
             "values": [
-                "Sponge layer"
+                "sponge layer"
             ]
         }, 
         "cmip6.atmos.dynamical_core.top_boundary.top_heat": {
@@ -75,53 +87,144 @@
                 "Damp zonal mean winds to zero"
             ]
         }, 
-        "cmip6.atmos.dynamical_core.diffusion_horizontal.scheme_name": {
+        "cmip6.atmos.gravity_waves.orographic_gravity_waves.calculation_method": {
             "values": [
-                "GFDL FV core"
+                "non-linear calculation"
             ]
         }, 
-        "cmip6.atmos.dynamical_core.advection.tracers.scheme_characteristics": {
+        "cmip6.atmos.gravity_waves.orographic_gravity_waves.dissipation_scheme": {
             "values": [
-                "Finite volume"
+                "single wave"
             ]
         }, 
-        "cmip6.atmos.dynamical_core.advection.tracers.conserved_quantities": {
+        "cmip6.atmos.gravity_waves.orographic_gravity_waves.propagation_scheme": {
             "values": [
-                "Other: mass"
+                "linear theory"
             ]
         }, 
-        "cmip6.atmos.dynamical_core.advection.momentum.scheme_characteristics": {
+        "cmip6.atmos.gravity_waves.orographic_gravity_waves.source_mechanisms": {
             "values": [
-                "4th order"
+                "hydraulic jump", 
+                "linear mountain waves", 
+                "statistical sub-grid scale variance"
             ]
         }, 
-        "cmip6.atmos.dynamical_core.advection.momentum.conserved_quantities": {
+        "cmip6.atmos.gravity_waves.subgrid_scale_orography": {
             "values": [
-                "Other: unknown"
+                "effect on drag"
+            ]
+        }, 
+        "cmip6.atmos.grid.discretisation.horizontal.horizontal_pole": {
+            "values": [
+                "filter"
+            ]
+        }, 
+        "cmip6.atmos.grid.discretisation.horizontal.scheme_method": {
+            "values": [
+                "finite volumes"
+            ]
+        }, 
+        "cmip6.atmos.grid.discretisation.horizontal.scheme_type": {
+            "values": [
+                "fixed grid"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.basic_approximations": {
+            "values": [
+                "hydrostatic", 
+                "primitive equations"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.model_family": {
+            "values": [
+                "AGCM"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.name": {
+            "values": [
+                "gfdl atmospheric component: AM2p13"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.orography.type": {
+            "values": [
+                "Other: present day"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.timestepping.timestep_dynamics": {
+            "values": [
+                600
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_cloud_microphysics.processes": {
+            "values": [
+                "cloud ice", 
+                "mixed phase", 
+                "water vapour deposition"
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_cloud_microphysics.scheme_name": {
+            "values": [
+                "RAS"
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_precipitation.hydrometeors": {
+            "values": [
+                "liquid rain", 
+                "snow"
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_precipitation.scheme_name": {
+            "values": [
+                "RAS"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.insolation_ozone.solar_ozone_impact": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.orbital_parameters.computation_method": {
+            "values": [
+                "Berger 1978"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.orbital_parameters.fixed_reference_date": {
+            "values": [
+                23
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.orbital_parameters.type": {
+            "values": [
+                "fixed"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.solar_constant.transient_characteristics": {
+            "values": [
+                "Set by year value"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.solar_constant.type": {
+            "values": [
+                "transient"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.volcanoes_treatment.volcanoes_implementation": {
+            "values": [
+                "stratospheric aerosols optical thickness"
             ]
         }, 
         "cmip6.atmos.radiation.aerosols": {
             "values": [
-                "BC", 
-                "Dust", 
-                "Organic", 
-                "Sea salt", 
-                "Sulphate"
-            ]
-        }, 
-        "cmip6.atmos.radiation.shortwave_radiation.spectral_integration": {
-            "values": [
-                "Wide-band model"
-            ]
-        }, 
-        "cmip6.atmos.radiation.shortwave_radiation.spectral_intervals": {
-            "values": [
-                18
+                "Other: black carbon / soot", 
+                "dust", 
+                "organic", 
+                "sea salt", 
+                "sulphate"
             ]
         }, 
         "cmip6.atmos.radiation.longwave_radiation.spectral_integration": {
             "values": [
-                "Wide-band model"
+                "wide-band model"
             ]
         }, 
         "cmip6.atmos.radiation.longwave_radiation.spectral_intervals": {
@@ -129,14 +232,31 @@
                 10
             ]
         }, 
-        "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.scheme_type": {
+        "cmip6.atmos.radiation.shortwave_radiation.spectral_integration": {
             "values": [
-                "Vertical profile of Kz"
+                "wide-band model"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_radiation.spectral_intervals": {
+            "values": [
+                18
             ]
         }, 
         "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.counter_gradient": {
             "values": [
                 true
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.scheme_type": {
+            "values": [
+                "vertical profile of Kz"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.processes": {
+            "values": [
+                "convective momentum transport", 
+                "detrainment", 
+                "entrainment"
             ]
         }, 
         "cmip6.atmos.turbulence_convection.deep_convection.scheme_name": {
@@ -146,118 +266,12 @@
         }, 
         "cmip6.atmos.turbulence_convection.deep_convection.scheme_type": {
             "values": [
-                "Mass-flux"
-            ]
-        }, 
-        "cmip6.atmos.turbulence_convection.deep_convection.processes": {
-            "values": [
-                "Convective momentum transport", 
-                "Detrainment", 
-                "Entrainment"
+                "mass-flux"
             ]
         }, 
         "cmip6.atmos.turbulence_convection.shallow_convection.scheme_method": {
             "values": [
-                "Same as deep (unified)"
-            ]
-        }, 
-        "cmip6.atmos.microphysics_precipitation.large_scale_precipitation.scheme_name": {
-            "values": [
-                "RAS"
-            ]
-        }, 
-        "cmip6.atmos.microphysics_precipitation.large_scale_precipitation.hydrometeors": {
-            "values": [
-                "Liquid rain", 
-                "Snow"
-            ]
-        }, 
-        "cmip6.atmos.microphysics_precipitation.large_scale_cloud_microphysics.scheme_name": {
-            "values": [
-                "RAS"
-            ]
-        }, 
-        "cmip6.atmos.cloud_scheme.uses_separate_treatment": {
-            "values": [
-                "Yes"
-            ]
-        }, 
-        "cmip6.atmos.cloud_scheme.processes": {
-            "values": [
-                "Other: klein"
-            ]
-        }, 
-        "cmip6.atmos.cloud_scheme.sub_grid_scale_water_distribution.type": {
-            "values": [
-                "Diagnostic"
-            ]
-        }, 
-        "cmip6.atmos.cloud_scheme.sub_grid_scale_water_distribution.function_name": {
-            "values": [
-                "Klein"
-            ]
-        }, 
-        "cmip6.atmos.cloud_scheme.sub_grid_scale_water_distribution.convection_coupling": {
-            "values": [
-                "Coupled with deep", 
-                "Coupled with shallow"
-            ]
-        }, 
-        "cmip6.atmos.gravity_waves.subgrid_scale_orography": {
-            "values": [
-                "Effect on drag"
-            ]
-        }, 
-        "cmip6.atmos.gravity_waves.orographic_gravity_waves.source_mechanisms": {
-            "values": [
-                "Hydraulic jump", 
-                "Linear mountain waves", 
-                "Statistical sub-grid scale variance"
-            ]
-        }, 
-        "cmip6.atmos.gravity_waves.orographic_gravity_waves.calculation_method": {
-            "values": [
-                "Non-linear calculation"
-            ]
-        }, 
-        "cmip6.atmos.gravity_waves.orographic_gravity_waves.propagation_scheme": {
-            "values": [
-                "Linear theory"
-            ]
-        }, 
-        "cmip6.atmos.gravity_waves.orographic_gravity_waves.dissipation_scheme": {
-            "values": [
-                "Single wave"
-            ]
-        }, 
-        "cmip6.atmos.natural_forcing.solar_constant.type": {
-            "values": [
-                "Transient"
-            ]
-        }, 
-        "cmip6.atmos.natural_forcing.solar_constant.transient_characteristics": {
-            "values": [
-                "Set by year value"
-            ]
-        }, 
-        "cmip6.atmos.natural_forcing.orbital_parameters.type": {
-            "values": [
-                "Fixed"
-            ]
-        }, 
-        "cmip6.atmos.natural_forcing.orbital_parameters.fixed_reference_date": {
-            "values": [
-                23
-            ]
-        }, 
-        "cmip6.atmos.natural_forcing.orbital_parameters.computation_method": {
-            "values": [
-                "Berger 1978"
-            ]
-        }, 
-        "cmip6.atmos.natural_forcing.insolation_ozone.solar_ozone_impact": {
-            "values": [
-                true
+                "same as deep (unified)"
             ]
         }
     }

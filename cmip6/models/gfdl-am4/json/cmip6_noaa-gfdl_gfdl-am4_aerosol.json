@@ -1,33 +1,13 @@
 {
     "mipEra": "cmip6", 
     "institute": "noaa-gfdl", 
-    "seedingSource": null, 
+    "seedingSource": "cmip5:gfdl-cm3", 
     "sourceID": "gfdl-am4", 
     "topic": "aerosol", 
     "content": {
-        "cmip6.aerosol.key_properties.name": {
-            "values": [
-                "GFDL AM3 Predicted Aerosols"
-            ]
-        }, 
-        "cmip6.aerosol.key_properties.scheme_scope": {
-            "values": [
-                "Whole atmosphere"
-            ]
-        }, 
         "cmip6.aerosol.key_properties.basic_approximations": {
             "values": [
                 "Bulk aerosol model"
-            ]
-        }, 
-        "cmip6.aerosol.key_properties.prognostic_variables_form": {
-            "values": [
-                "Other: 3d mass/volume mixing ratio for aerosols"
-            ]
-        }, 
-        "cmip6.aerosol.key_properties.number_of_tracers": {
-            "values": [
-                16
             ]
         }, 
         "cmip6.aerosol.key_properties.family_approach": {
@@ -35,23 +15,38 @@
                 true
             ]
         }, 
-        "cmip6.aerosol.key_properties.timestep_framework.method": {
+        "cmip6.aerosol.key_properties.name": {
             "values": [
-                "Other: uses atmosphericchemistry time stepping"
+                "GFDL AM3 Predicted Aerosols"
             ]
         }, 
-        "cmip6.aerosol.model.processes": {
+        "cmip6.aerosol.key_properties.number_of_tracers": {
             "values": [
-                "Advection (horizontal)", 
-                "Advection (vertical)", 
-                "Ageing", 
-                "Dry deposition", 
-                "Heterogeneous chemistry", 
-                "Oxidation (gas phase)", 
-                "Oxidation (in cloud)", 
-                "Sedimentation", 
-                "Wet deposition (impaction scavenging)", 
-                "Wet deposition (nucleation scavenging)"
+                16
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.prognostic_variables_form": {
+            "values": [
+                "3D mass/volume ratio for aerosols"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.scheme_scope": {
+            "values": [
+                "whole atmosphere"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.timestep_framework.method": {
+            "values": [
+                "Uses atmospheric chemistry time stepping"
+            ]
+        }, 
+        "cmip6.aerosol.model.bulk_scheme_species": {
+            "values": [
+                "Black carbon / soot", 
+                "Organic", 
+                "POM (particulate organic matter)", 
+                "SOA (secondary organic aerosols)", 
+                "Sulphate"
             ]
         }, 
         "cmip6.aerosol.model.coupling": {
@@ -67,6 +62,20 @@
                 "DMS", 
                 "SO2", 
                 "Terpene"
+            ]
+        }, 
+        "cmip6.aerosol.model.processes": {
+            "values": [
+                "Advection (horizontal)", 
+                "Advection (vertical)", 
+                "Ageing", 
+                "Dry deposition", 
+                "Heterogeneous chemistry", 
+                "Oxidation (gas phase)", 
+                "Oxidation (in cloud)", 
+                "Sedimentation", 
+                "Wet deposition (impaction scavenging)", 
+                "Wet deposition (nucleation scavenging)"
             ]
         }, 
         "cmip6.aerosol.model.scheme_type": {

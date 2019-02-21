@@ -2,7 +2,7 @@
     "mipEra": "cmip6", 
     "institute": "noaa-gfdl", 
     "seedingSource": "cmip5:gfdl-cm3", 
-    "sourceID": "gfdl-am4", 
+    "sourceID": "gfdl-esm4", 
     "topic": "atmoschem", 
     "content": {
         "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_climatology_emitted_species": {

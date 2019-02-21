@@ -1,8 +1,8 @@
 {
     "mipEra": "cmip6", 
     "institute": "noaa-gfdl", 
-    "seedingSource": "cmip5:gfdl-esm2m", 
-    "sourceID": "gfdl-esm2m", 
+    "seedingSource": "cmip5:gfdl-cm3", 
+    "sourceID": "gfdl-cm4", 
     "topic": "ocean", 
     "content": {
         "cmip6.ocean.advection.lateral_tracers.flux_limiter": {
@@ -12,7 +12,7 @@
         }, 
         "cmip6.ocean.advection.lateral_tracers.name": {
             "values": [
-                "Piecewise Parabolic method"
+                "Sweby"
             ]
         }, 
         "cmip6.ocean.advection.momentum.scheme_name": {
@@ -27,7 +27,7 @@
         }, 
         "cmip6.ocean.advection.overview": {
             "values": [
-                "vertical tracer advection use PPM"
+                "vertical tracer advection use Sweby"
             ]
         }, 
         "cmip6.ocean.advection.vertical_tracers.flux_limiter": {
@@ -123,7 +123,7 @@
         }, 
         "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.coeff_background": {
             "values": [
-                "Western boundary enhanced background plus weak laplacian"
+                "1e05 m2/sec"
             ]
         }, 
         "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.type": {
