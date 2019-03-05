@@ -1,22 +1,22 @@
 {
     "gfdl-am4": {
         "toplevel": {
-            "publish": "off"
+            "publish": "on"
         },
         "aerosol": {
-            "publish": "off"
+            "publish": "on"
         },
         "atmos": {
-            "publish": "off"
+            "publish": "on"
         },
         "atmoschem": {
-            "publish": "off"
+            "publish": "on"
         },
         "land": {
-            "publish": "off"
+            "publish": "on"
         },
         "landice": {
-            "publish": "off"
+            "publish": "on"
         }
     },
     "gfdl-cm4": {
