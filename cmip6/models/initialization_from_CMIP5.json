@@ -97,7 +97,7 @@
             "initializedFrom": "cmip5:gfdl-esm2m"
         }, 
         "ocnbgchem": {
-            "initializedFrom": ""
+            "initializedFrom": "cmip5:gfdl-esm2m"
         }, 
         "seaice": {
             "initializedFrom": "cmip5:gfdl-esm2m"
