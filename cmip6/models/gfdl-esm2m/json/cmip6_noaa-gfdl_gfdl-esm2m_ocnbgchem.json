@@ -2,7 +2,7 @@
     "mipEra": "cmip6", 
     "institute": "noaa-gfdl", 
     "seedingSource": "Spreadsheet", 
-    "sourceID": "gfdl-esm4", 
+    "sourceID": "gfdl-esm2m", 
     "topic": "ocnbgchem", 
     "content": {
         "cmip6.ocnbgchem.key_properties.name": {
