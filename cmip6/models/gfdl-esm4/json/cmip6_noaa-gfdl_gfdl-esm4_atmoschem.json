@@ -140,7 +140,8 @@
         "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.aerosol_species": {
             "values": [
                 "NAT (Nitric acid trihydrate)", 
-                "Polar stratospheric ice"
+                "Polar stratospheric ice", 
+                "STS (supercooled ternary solution aerosol particule))"
             ]
         }, 
         "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.coagulation": {

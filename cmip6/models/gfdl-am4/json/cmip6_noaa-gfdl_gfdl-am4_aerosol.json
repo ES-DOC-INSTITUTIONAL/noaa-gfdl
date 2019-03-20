@@ -1,28 +1,33 @@
 {
     "mipEra": "cmip6", 
     "institute": "noaa-gfdl", 
-    "seedingSource": "cmip5:gfdl-cm3", 
+    "seedingSource": "Spreadsheet", 
     "sourceID": "gfdl-am4", 
     "topic": "aerosol", 
     "content": {
+        "cmip6.aerosol.key_properties.name": {
+            "values": [
+                "GFDL AM4 Predicted Aerosols "
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.keywords": {
+            "values": [
+                "sulfate, organics, black carbon, sea-salt, dust"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.overview": {
+            "values": [
+                "The model prognose mass distribution of five aerosol types including sulfate, dust, black carbon, organic carbon, and sea salt based on their emissions (and precursor emissions), chemical production for sulfate and secondary organics, dry and wet (rainout and washout) deposition, transport by advection, and dry and wet convection."
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.scheme_scope": {
+            "values": [
+                "Troposphere"
+            ]
+        }, 
         "cmip6.aerosol.key_properties.basic_approximations": {
             "values": [
                 "Bulk aerosol model"
-            ]
-        }, 
-        "cmip6.aerosol.key_properties.family_approach": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.aerosol.key_properties.name": {
-            "values": [
-                "GFDL AM3 Predicted Aerosols"
-            ]
-        }, 
-        "cmip6.aerosol.key_properties.number_of_tracers": {
-            "values": [
-                16
             ]
         }, 
         "cmip6.aerosol.key_properties.prognostic_variables_form": {
@@ -30,9 +35,29 @@
                 "3D mass/volume ratio for aerosols"
             ]
         }, 
-        "cmip6.aerosol.key_properties.scheme_scope": {
+        "cmip6.aerosol.key_properties.number_of_tracers": {
             "values": [
-                "whole atmosphere"
+                16.0
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.family_approach": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.software_properties.repository": {
+            "values": [
+                "https://github.com/NOAA-GFDL/AM4"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.software_properties.code_version": {
+            "values": [
+                "warsaw"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.software_properties.code_languages": {
+            "values": [
+                "Fortran"
             ]
         }, 
         "cmip6.aerosol.key_properties.timestep_framework.method": {
@@ -40,28 +65,317 @@
                 "Uses atmospheric chemistry time stepping"
             ]
         }, 
-        "cmip6.aerosol.model.bulk_scheme_species": {
+        "cmip6.aerosol.key_properties.timestep_framework.split_operator_advection_timestep": {
             "values": [
-                "Black carbon / soot", 
-                "Organic", 
-                "POM (particulate organic matter)", 
-                "SOA (secondary organic aerosols)", 
-                "Sulphate"
+                1800.0
             ]
         }, 
-        "cmip6.aerosol.model.coupling": {
+        "cmip6.aerosol.key_properties.timestep_framework.split_operator_physical_timestep": {
             "values": [
-                "Clouds", 
-                "Other: heterogeneouschemistry", 
-                "Other: landsurface", 
-                "Radiation"
+                1800.0
             ]
         }, 
-        "cmip6.aerosol.model.gas_phase_precursors": {
+        "cmip6.aerosol.key_properties.timestep_framework.integrated_timestep": {
             "values": [
-                "DMS", 
-                "SO2", 
-                "Terpene"
+                1800.0
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.timestep_framework.integrated_scheme_type": {
+            "values": [
+                "Explicit"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.meteorological_forcings.variables_3D": {
+            "values": [
+                "U, V,  T, Qv, Ql, Qi, P, convective mass flux, precipitation, boundary layer height"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.meteorological_forcings.variables_2D": {
+            "values": [
+                "land-sea mask, dust source function, ocean productivity, leaf area index"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.meteorological_forcings.frequency": {
+            "values": [
+                1800.0
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.resolution.name": {
+            "values": [
+                "C96 (Cubed-sphere topology with 96x96 grid boxes per cube face) "
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.resolution.canonical_horizontal_resolution": {
+            "values": [
+                "100km"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.resolution.number_of_horizontal_gridpoints": {
+            "values": [
+                55296.0
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.resolution.number_of_vertical_levels": {
+            "values": [
+                33.0
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.resolution.is_adaptive_grid": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.tuning_applied.description": {
+            "values": [
+                "The model was tuned to improve simulations of present-day climatological distribution of aerosol properties (i.e. surface concentration, aerosol optical depth, vertical extinction coefficient)"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.tuning_applied.global_mean_metrics_used": {
+            "values": [
+                "Global dust emission coefficient"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.tuning_applied.regional_metrics_used": {
+            "values": [
+                "None"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.tuning_applied.trend_metrics_used": {
+            "values": [
+                "None"
+            ]
+        }, 
+        "cmip6.aerosol.grid.name": {
+            "values": [
+                "C96"
+            ]
+        }, 
+        "cmip6.aerosol.grid.matches_atmosphere_grid": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.grid.resolution.name": {
+            "values": [
+                "C96"
+            ]
+        }, 
+        "cmip6.aerosol.grid.resolution.canonical_horizontal_resolution": {
+            "values": [
+                "100km"
+            ]
+        }, 
+        "cmip6.aerosol.grid.resolution.number_of_horizontal_gridpoints": {
+            "values": [
+                55296.0
+            ]
+        }, 
+        "cmip6.aerosol.grid.resolution.number_of_vertical_levels": {
+            "values": [
+                33.0
+            ]
+        }, 
+        "cmip6.aerosol.grid.resolution.is_adaptive_grid": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.aerosol.transport.overview": {
+            "values": [
+                "Advection: finite volume with vertical lagrangian; Diffusion: implicit LU decomposition; Convection: explicit convective mass flux;"
+            ]
+        }, 
+        "cmip6.aerosol.transport.scheme": {
+            "values": [
+                "Specific transport scheme (eulerian and semi-lagrangian)"
+            ]
+        }, 
+        "cmip6.aerosol.transport.mass_conservation_scheme": {
+            "values": [
+                "Other"
+            ]
+        }, 
+        "cmip6.aerosol.transport.convention": {
+            "values": [
+                "Convective fluxes connected to tracers"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.name": {
+            "values": [
+                "GFDL-AM4-aerosol-model"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.overview": {
+            "values": [
+                "SO4 precursor, organics and black carbon aerosols emitted from CMIP-6 emission inventories; sea-salt and dust mechanically emitted from the surface as a function of surface winds. "
+            ]
+        }, 
+        "cmip6.aerosol.emissions.method": {
+            "values": [
+                "Interactive above surface"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.sources": {
+            "values": [
+                "Vegetation", 
+                "Volcanos", 
+                "Bare ground", 
+                "Sea surface", 
+                "Lightning", 
+                "Fires", 
+                "Aircraft", 
+                "Anthropogenic", 
+                "Other"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.prescribed_climatology": {
+            "values": [
+                "Monthly"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.prescribed_climatology_emitted_species": {
+            "values": [
+                "SO2, SO4, Organics, black carbon"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.prescribed_spatially_uniform_emitted_species": {
+            "values": [
+                "None"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.interactive_emitted_species": {
+            "values": [
+                "dust, sea-salt, dimethyl-sulfide"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.other_emitted_species": {
+            "values": [
+                "None"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.other_method_characteristics": {
+            "values": [
+                "Fixed atmospheric concentration of O3, OH, HO2, NO3, HNO3"
+            ]
+        }, 
+        "cmip6.aerosol.concentrations.name": {
+            "values": [
+                "GFDL-AM4-aerosol-model"
+            ]
+        }, 
+        "cmip6.aerosol.concentrations.overview": {
+            "values": [
+                "Sulfate production uses a simplified scheme with prescribed O3 and radicals varying monthly and interannually and are extracted from CMIP-5 historical simulation  "
+            ]
+        }, 
+        "cmip6.aerosol.concentrations.prescribed_lower_boundary": {
+            "values": [
+                "N/A"
+            ]
+        }, 
+        "cmip6.aerosol.concentrations.prescribed_upper_boundary": {
+            "values": [
+                "N/A"
+            ]
+        }, 
+        "cmip6.aerosol.concentrations.prescribed_fields_mmr": {
+            "values": [
+                "O3, radicals OH, HO2, NO3"
+            ]
+        }, 
+        "cmip6.aerosol.concentrations.prescribed_fields_aod_plus_ccn": {
+            "values": [
+                "stratospheric volcanic aerosol"
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.name": {
+            "values": [
+                "GFDL-AM4-aerosol-model"
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.overview": {
+            "values": [
+                "Absorption coefficients are given at 550 nm for dry aerosols in units of m2/kg. Dust is divided in 5 bins. The absorption coefficient for each 5 size bins defined by minimum and maximum radii in parenthesis: dust1 (0.1-1 um)=0.069; dust2 (1-2 um)=0.056; dust3 (2-3 um)=0.046; dust4 (3-6 um)=0.035; dust5 (6-10)=0.026. Black carbon is internally mixed with sulfate and the optical properties of their internal mixing depend on relative humidity, as for each 5 bins of sea-salt, and phyllic organic carbon."
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.absorption.black_carbon": {
+            "values": [
+                7.33
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.absorption.dust": {
+            "values": [
+                0.069
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.absorption.organics": {
+            "values": [
+                0.111
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.mixtures.external": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.mixtures.internal": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.mixtures.mixing_rule": {
+            "values": [
+                "Volume weight average of optical properties (extinction coeff, single scattering albedo and asymmetry) of sulfate (assumed entirely ammonium sulfate) and black carbon"
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.impact_of_h2o.size": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.impact_of_h2o.internal_mixture": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.impact_of_h2o.external_mixture": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.radiative_scheme.shortwave_bands": {
+            "values": [
+                18.0
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.radiative_scheme.longwave_bands": {
+            "values": [
+                7.0
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.cloud_interactions.twomey": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.cloud_interactions.drizzle": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.cloud_interactions.cloud_lifetime": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.cloud_interactions.longwave_bands": {
+            "values": [
+                7.0
+            ]
+        }, 
+        "cmip6.aerosol.model.name": {
+            "values": [
+                "GFDL-AM4-aerosol-model"
             ]
         }, 
         "cmip6.aerosol.model.processes": {
@@ -78,10 +392,37 @@
                 "Wet deposition (nucleation scavenging)"
             ]
         }, 
+        "cmip6.aerosol.model.coupling": {
+            "values": [
+                "Clouds", 
+                "Other", 
+                "Other", 
+                "Radiation"
+            ]
+        }, 
+        "cmip6.aerosol.model.gas_phase_precursors": {
+            "values": [
+                "DMS", 
+                "SO2", 
+                "Terpene"
+            ]
+        }, 
         "cmip6.aerosol.model.scheme_type": {
             "values": [
                 "Bin", 
                 "Bulk"
+            ]
+        }, 
+        "cmip6.aerosol.model.bulk_scheme_species": {
+            "values": [
+                "Sulphate", 
+                "Sea salt", 
+                "Dust", 
+                "Organic", 
+                "Black carbon / soot", 
+                "SOA (secondary organic aerosols)", 
+                "POM (particulate organic matter)", 
+                "Other"
             ]
         }
     }
