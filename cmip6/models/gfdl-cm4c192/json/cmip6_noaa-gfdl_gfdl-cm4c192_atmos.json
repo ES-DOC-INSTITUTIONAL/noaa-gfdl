@@ -2,7 +2,7 @@
     "mipEra": "cmip6", 
     "institute": "noaa-gfdl", 
     "seedingSource": "Spreadsheet", 
-    "sourceID": "gfdl-cm4", 
+    "sourceID": "gfdl-cm4c192", 
     "topic": "atmos", 
     "content": {
         "cmip6.atmos.key_properties.name": {
