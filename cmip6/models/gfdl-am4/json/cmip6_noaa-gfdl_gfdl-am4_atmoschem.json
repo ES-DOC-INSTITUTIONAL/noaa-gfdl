@@ -37,7 +37,7 @@
         }, 
         "cmip6.atmoschem.key_properties.number_of_tracers": {
             "values": [
-                21
+                21.0
             ]
         }, 
         "cmip6.atmoschem.key_properties.family_approach": {
@@ -72,22 +72,22 @@
         }, 
         "cmip6.atmoschem.key_properties.timestep_framework.split_operator_advection_timestep": {
             "values": [
-                1800
+                1800.0
             ]
         }, 
         "cmip6.atmoschem.key_properties.timestep_framework.split_operator_physical_timestep": {
             "values": [
-                1800
+                1800.0
             ]
         }, 
         "cmip6.atmoschem.key_properties.timestep_framework.split_operator_chemistry_timestep": {
             "values": [
-                1800
+                1800.0
             ]
         }, 
         "cmip6.atmoschem.key_properties.timestep_framework.integrated_timestep": {
             "values": [
-                1800
+                1800.0
             ]
         }, 
         "cmip6.atmoschem.key_properties.timestep_framework.integrated_scheme_type": {
@@ -113,7 +113,7 @@
         "cmip6.atmoschem.emissions_concentrations.surface_emissions.sources": {
             "values": [
                 "Anthropogenic", 
-                "Other: bare ground", 
+                "Biomass burning", 
                 "Sea surface", 
                 "Vegetation"
             ]
@@ -161,17 +161,17 @@
         }, 
         "cmip6.atmoschem.gas_phase_chemistry.number_of_bimolecular_reactions": {
             "values": [
-                157
+                157.0
             ]
         }, 
         "cmip6.atmoschem.gas_phase_chemistry.number_of_termolecular_reactions": {
             "values": [
-                21
+                21.0
             ]
         }, 
         "cmip6.atmoschem.gas_phase_chemistry.number_of_steady_state_species": {
             "values": [
-                19
+                19.0
             ]
         }, 
         "cmip6.atmoschem.gas_phase_chemistry.wet_deposition": {
@@ -194,7 +194,7 @@
         }, 
         "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.number_of_steady_state_species": {
             "values": [
-                3
+                3.0
             ]
         }, 
         "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.sedimentation": {
@@ -219,7 +219,7 @@
         }, 
         "cmip6.atmoschem.photo_chemistry.number_of_reactions": {
             "values": [
-                39
+                39.0
             ]
         }, 
         "cmip6.atmoschem.photo_chemistry.photolysis.method": {

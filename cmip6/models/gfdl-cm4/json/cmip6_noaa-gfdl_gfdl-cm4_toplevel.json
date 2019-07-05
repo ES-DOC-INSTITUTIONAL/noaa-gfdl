@@ -22,7 +22,7 @@
         }, 
         "cmip6.toplevel.key_properties.genealogy.year_released": {
             "values": [
-                2019.0
+                2019
             ]
         }, 
         "cmip6.toplevel.key_properties.genealogy.CMIP3_parent": {
@@ -195,11 +195,6 @@
                 "salt is exchanged conservatively between ocean and sea ice models as sea ice freezes and melts"
             ]
         }, 
-        "cmip6.toplevel.key_properties.conservation.momentum.details": {
-            "values": [
-                "There is no enforcement of global momentum conservation in the model"
-            ]
-        }, 
         "cmip6.toplevel.radiative_forcings.name": {
             "values": [
                 "CMIP6 radiative forcings"
@@ -212,7 +207,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.additional_information": {
@@ -222,7 +217,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.CH4.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.CH4.additional_information": {
@@ -232,7 +227,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.N2O.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.N2O.additional_information": {
@@ -242,7 +237,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.tropospheric_O3.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.tropospheric_O3.additional_information": {
@@ -252,7 +247,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.additional_information": {
@@ -262,12 +257,12 @@
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.equivalence_concentration": {
             "values": [
-                "N/A"
+                "N/A: Not applicabale (CFCs not included or emissions and concentrations determined by the model state)"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.additional_information": {
@@ -277,7 +272,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.SO4.provision": {
             "values": [
-                "E"
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.SO4.additional_information": {
@@ -287,7 +282,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.black_carbon.provision": {
             "values": [
-                "E"
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.black_carbon.additional_information": {
@@ -297,7 +292,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.provision": {
             "values": [
-                "E"
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.additional_information": {
@@ -307,12 +302,12 @@
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.nitrate.provision": {
             "values": [
-                "N/A"
+                "N/A: Not applicable - forcing agent is not included"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.provision": {
             "values": [
-                "E"
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.aerosol_effect_on_ice_clouds": {
@@ -327,7 +322,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.provision": {
             "values": [
-                "E"
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.aerosol_effect_on_ice_clouds": {
@@ -347,7 +342,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.dust.provision": {
             "values": [
-                "M"
+                "M: Emissions and concentrations determined by the model state rather than externally prescribed"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.dust.additional_information": {
@@ -357,7 +352,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.provision": {
             "values": [
-                "E"
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.historical_explosive_volcanic_aerosol_implementation": {
@@ -392,7 +387,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.sea_salt.provision": {
             "values": [
-                "M"
+                "M: Emissions and concentrations determined by the model state rather than externally prescribed"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.sea_salt.additional_information": {
@@ -418,11 +413,6 @@
         "cmip6.toplevel.radiative_forcings.other.solar.provision": {
             "values": [
                 "Irradiance"
-            ]
-        }, 
-        "cmip6.toplevel.radiative_forcings.other.solar.additional_information": {
-            "values": [
-                "Matthes et al. 2017"
             ]
         }
     }
