@@ -132,6 +132,16 @@
             "initializedFrom": ""
         }
     }, 
+    "gfdl-global-lbl": {
+        "toplevel": {
+            "initializedFrom": ""
+        }
+    }, 
+    "gfdl-grtcode": {
+        "toplevel": {
+            "initializedFrom": ""
+        }
+    }, 
     "gfdl-om4p5b": {
         "toplevel": {
             "initializedFrom": ""
@@ -143,6 +153,11 @@
             "initializedFrom": ""
         }, 
         "seaice": {
+            "initializedFrom": ""
+        }
+    }, 
+    "gfdl-rfm-disort": {
+        "toplevel": {
             "initializedFrom": ""
         }
     }

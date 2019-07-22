@@ -1,0 +1,350 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "noaa-gfdl", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "gfdl-cm4", 
+    "topic": "land", 
+    "content": {
+        "cmip6.land.key_properties.name": {
+            "values": [
+                "GFDL-LM4.0.1"
+            ]
+        }, 
+        "cmip6.land.key_properties.keywords": {
+            "values": [
+                "atmosphere-land coupled model, AMIP, dynamic vegetation, soil hydrology, land use"
+            ]
+        }, 
+        "cmip6.land.key_properties.overview": {
+            "values": [
+                "See description."
+            ]
+        }, 
+        "cmip6.land.key_properties.description": {
+            "values": [
+                "Land grid cells are partitioned to represent different land types: soil, lake, or glacier. The soil tile is further subdivied into different land use types such as croplands, pastures, primary and secondary lands (i.e. recovering after logging or agricultural abandonment). The fraction of each land-use tile changes annually according to historical reconstructions or future scenarios of land use from CMIP6 forcing. Soil water runoff is transported to the ocean by a grid-scale river and lake network. Prognostic variables for soil, lake, and overlaying constant-density snowpack are liquid content, ice content, and temperature (all vertically distributed). The soil is treated as a dual-domain (Beven & Germann, 1982), saturated-unsaturated, soil-bedrock continuum, in which matrix flow is governed by Richard\u2019s equation (Hillel, 1980), and both infiltration and parameterized subgrid discharge to rivers may be facilitated by idealized macropores. Lakes are represented by one or more vertical columns, with density-driven stratification and overturning. Prognostic variables for each river reach are depth-averaged liquid mass, solid mass, and sensible heat content. Rivers flow according to the hydraulic geometry of Leopold and Maddock (1953). Prognostic variables for vegetation are mass of carbon in each of five plant compartments (leaves, fine roots, heartwood, sapwood, and labile), and liquid and solid water storage and temperature on leaves. Vegetation type (C3 or C4 grass, temperate deciduous, tropical, or cold evergreen tree) is determined by plant total carbon and climate (Shevliakova et al., 2009). Photosynthesis and stomatal conductance are determined mechanistically (Leuning, 1995). "
+            ]
+        }, 
+        "cmip6.land.key_properties.land_atmosphere_flux_exchanges": {
+            "values": [
+                "Water", 
+                "Energy"
+            ]
+        }, 
+        "cmip6.land.key_properties.atmospheric_coupling_treatment": {
+            "values": [
+                "implicit"
+            ]
+        }, 
+        "cmip6.land.key_properties.land_cover": {
+            "values": [
+                "Land ice", 
+                "Bare soil", 
+                "Lake", 
+                "Lake ice", 
+                "Vegetated"
+            ]
+        }, 
+        "cmip6.land.key_properties.land_cover_change": {
+            "values": [
+                "land-use gross transitions from LUH2 CMIP6 data set, including shifting cultivation, primary and secondary wood harvesting. land cover is determined by dynamic vegetation model for each tile"
+            ]
+        }, 
+        "cmip6.land.key_properties.tiling": {
+            "values": [
+                "In coastal grid cells a partial land cover is allowed, i.e.  only part of the grid cell can be land covered, the rest is ocean. Land within each grid cell can contain a fraction of open water (lake), a fraction of land ice (glacier); the rest is soil/vegetation covered. Dynamic vegetation model predicts the vegetetion properties, which under unsuitable conditions may lead to vegetatoin diaback and  bare soil. Land use comonent generates new land use tiles and/or changes their fractional area."
+            ]
+        }, 
+        "cmip6.land.key_properties.conservation_properties.energy": {
+            "values": [
+                "Within land component, energy is conserved. For a 30-year experiment, Milly et al. (2014) found a balance residual of -10^-6 W m^-2."
+            ]
+        }, 
+        "cmip6.land.key_properties.conservation_properties.water": {
+            "values": [
+                "Within land component, water is conserved. For a 30-year experiment, Milly et al. (2014) found a balance residual of -10^-4 mm/y."
+            ]
+        }, 
+        "cmip6.land.key_properties.conservation_properties.carbon": {
+            "values": [
+                "within land component, carbon is conserved"
+            ]
+        }, 
+        "cmip6.land.key_properties.timestepping_framework.timestep_dependent_on_atmosphere": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.key_properties.timestepping_framework.time_step": {
+            "values": [
+                1800.0
+            ]
+        }, 
+        "cmip6.land.key_properties.timestepping_framework.timestepping_method": {
+            "values": [
+                "Physical state updated on the same time step as atmospheric physics (every 1800 s); vegetation dynamics and rivers use daily time step."
+            ]
+        }, 
+        "cmip6.land.key_properties.software_properties.repository": {
+            "values": [
+                "https://github.com/NOAA-GFDL/AM4"
+            ]
+        }, 
+        "cmip6.land.key_properties.software_properties.code_version": {
+            "values": [
+                "warsaw"
+            ]
+        }, 
+        "cmip6.land.key_properties.software_properties.code_languages": {
+            "values": [
+                "FORTRAN 90/95/2003"
+            ]
+        }, 
+        "cmip6.land.soil.soil_map.structure": {
+            "values": [
+                "Soil type prescibed at each grid point"
+            ]
+        }, 
+        "cmip6.land.soil.soil_map.texture": {
+            "values": [
+                "Soil type prescibed at each grid point"
+            ]
+        }, 
+        "cmip6.land.soil.soil_map.albedo": {
+            "values": [
+                "Bare soil albedo prescibed at each grid point"
+            ]
+        }, 
+        "cmip6.land.soil.soil_map.water_table": {
+            "values": [
+                "Dynamic"
+            ]
+        }, 
+        "cmip6.land.soil.snow_free_albedo.functions": {
+            "values": [
+                "Vegetation state"
+            ]
+        }, 
+        "cmip6.land.soil.snow_free_albedo.direct_diffuse": {
+            "values": [
+                "Distinction between direct and diffuse albedo"
+            ]
+        }, 
+        "cmip6.land.soil.snow_free_albedo.number_of_wavelength_bands": {
+            "values": [
+                2.0
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.number_of_ground_water_layers": {
+            "values": [
+                20.0
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.method": {
+            "values": [
+                "Other: generalized richards equation"
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.freezing.number_of_ground_ice_layers": {
+            "values": [
+                20.0
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.freezing.ice_storage_method": {
+            "values": [
+                "Basic thermodynamics"
+            ]
+        }, 
+        "cmip6.land.soil.heat_treatment.heat_storage": {
+            "values": [
+                "Explicit diffusion"
+            ]
+        }, 
+        "cmip6.land.snow.number_of_snow_layers": {
+            "values": [
+                5.0
+            ]
+        }, 
+        "cmip6.land.snow.density": {
+            "values": [
+                "Constant"
+            ]
+        }, 
+        "cmip6.land.snow.water_equivalent": {
+            "values": [
+                "Prognostic"
+            ]
+        }, 
+        "cmip6.land.snow.temperature": {
+            "values": [
+                "Prognostic"
+            ]
+        }, 
+        "cmip6.land.snow.liquid_water_content": {
+            "values": [
+                "Prognostic"
+            ]
+        }, 
+        "cmip6.land.snow.snow_cover_fractions": {
+            "values": [
+                "Ground snow fraction", 
+                "Vegetation snow fraction"
+            ]
+        }, 
+        "cmip6.land.snow.processes": {
+            "values": [
+                "Other: snow refreezing", 
+                "Snow interception", 
+                "Snow melting"
+            ]
+        }, 
+        "cmip6.land.snow.snow_albedo.type": {
+            "values": [
+                "Prognostic"
+            ]
+        }, 
+        "cmip6.land.vegetation.vegetation_representation": {
+            "values": [
+                "Vegetation types"
+            ]
+        }, 
+        "cmip6.land.vegetation.vegetation_types": {
+            "values": [
+                "C3 grass", 
+                "C4 grass", 
+                "Broadleaf tree", 
+                "Needleleaf tree", 
+                "Vegetated"
+            ]
+        }, 
+        "cmip6.land.vegetation.vegetation_time_variation": {
+            "values": [
+                "Dynamical (varying from simulation)"
+            ]
+        }, 
+        "cmip6.land.vegetation.interception": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.vegetation.phenology": {
+            "values": [
+                "Prognostic"
+            ]
+        }, 
+        "cmip6.land.vegetation.leaf_area_index": {
+            "values": [
+                "Prognostic"
+            ]
+        }, 
+        "cmip6.land.vegetation.biomass": {
+            "values": [
+                "Prognostic"
+            ]
+        }, 
+        "cmip6.land.vegetation.stomatal_resistance": {
+            "values": [
+                "CO2", 
+                "Light", 
+                "Temperature", 
+                "Water availability"
+            ]
+        }, 
+        "cmip6.land.energy_balance.number_of_surface_temperatures": {
+            "values": [
+                1.0
+            ]
+        }, 
+        "cmip6.land.energy_balance.evaporation": {
+            "values": [
+                "Other: linked to photosynthesis"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.number_of_carbon_pools": {
+            "values": [
+                5.0
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.carbon_pools": {
+            "values": [
+                "Leaves, storage, fine roots, sapwood, heartwood"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.allocation.allocation_bins": {
+            "values": [
+                "Leaves + fine roots + coarse roots + stems"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.allocation.allocation_fractions": {
+            "values": [
+                "Function of plant allometry"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.soil.carbon_pools": {
+            "values": [
+                "Fast and slow-respiring soil carbon"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.permafrost_carbon.emitted_greenhouse_gases": {
+            "values": [
+                "Carbon dioxide"
+            ]
+        }, 
+        "cmip6.land.river_routing.number_of_reservoirs": {
+            "values": [
+                1.0
+            ]
+        }, 
+        "cmip6.land.river_routing.coupled_to_atmosphere": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.river_routing.basin_flow_direction_map": {
+            "values": [
+                "Present day"
+            ]
+        }, 
+        "cmip6.land.river_routing.oceanic_discharge.discharge_type": {
+            "values": [
+                "Direct (large rivers)"
+            ]
+        }, 
+        "cmip6.land.lakes.coupling_with_rivers": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.lakes.quantities_exchanged_with_rivers": {
+            "values": [
+                "Heat", 
+                "Water"
+            ]
+        }, 
+        "cmip6.land.lakes.method.ice_treatment": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.lakes.method.albedo": {
+            "values": [
+                "Prognostic"
+            ]
+        }, 
+        "cmip6.land.lakes.method.dynamics": {
+            "values": [
+                "Vertical"
+            ]
+        }, 
+        "cmip6.land.lakes.method.dynamic_lake_extent": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.lakes.method.endorheic_basins": {
+            "values": [
+                true
+            ]
+        }
+    }
+}
