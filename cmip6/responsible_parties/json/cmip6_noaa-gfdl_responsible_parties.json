@@ -1,0 +1,25 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "noaa-gfdl", 
+    "seedingSource": "Spreadsheet", 
+    "content": [
+        {
+            "mnemonic": "GFDL", 
+            "name": "NOAA Geophysical Fluid Dynamics Laboratory", 
+            "is_organisation": true, 
+            "address_postal": null, 
+            "address_email": null, 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Paul-Ginoux", 
+            "name": "Paul Ginoux", 
+            "is_organisation": false, 
+            "address_postal": null, 
+            "address_email": null, 
+            "url": null, 
+            "orcid": null
+        }
+    ]
+}
