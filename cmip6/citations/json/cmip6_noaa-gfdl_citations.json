@@ -1,0 +1,21 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "noaa-gfdl", 
+    "seedingSource": "Spreadsheet", 
+    "content": [
+        {
+            "mnemonic": "GFDL-AM4a", 
+            "doi": "10.1002/2017MS001208", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": "The GFDL Global Atmosphere and Land Model AM4.0/LM4.0 - Part I: Simulation Characteristics with Prescribed SSTs. Journal of Advances in Modeling Earth Systems, 10(3)"
+        }, 
+        {
+            "mnemonic": "GFDL-AM4b", 
+            "doi": "10.1002/2017MS001209", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": "The GFDL Global Atmosphere and Land Model AM4.0/LM4.0 - Part II: Model Description, Sensitivity Studies, and Tuning Strategies. Journal of Advances in Modeling Earth Systems"
+        }
+    ]
+}
