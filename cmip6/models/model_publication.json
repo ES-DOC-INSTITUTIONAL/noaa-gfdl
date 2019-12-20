@@ -21,57 +21,57 @@
     }, 
     "gfdl-cm4": {
         "toplevel": {
-            "publish": "on"
+            "publish": "off"
         }, 
         "aerosol": {
-            "publish": "on"
+            "publish": "off"
         }, 
         "atmos": {
-            "publish": "on"
+            "publish": "off"
         }, 
         "atmoschem": {
-            "publish": "on"
+            "publish": "off"
         }, 
         "land": {
-            "publish": "on"
+            "publish": "off"
         }, 
         "landice": {
-            "publish": "on"
+            "publish": "off"
         }, 
         "ocean": {
-            "publish": "on"
+            "publish": "off"
         }, 
         "ocnbgchem": {
-            "publish": "on"
+            "publish": "off"
         }, 
         "seaice": {
-            "publish": "on"
+            "publish": "off"
         }
     }, 
     "gfdl-cm4c192": {
         "toplevel": {
-            "publish": "on"
+            "publish": "off"
         }, 
         "aerosol": {
-            "publish": "on"
+            "publish": "off"
         }, 
         "atmos": {
-            "publish": "on"
+            "publish": "off"
         }, 
         "atmoschem": {
-            "publish": "on"
+            "publish": "off"
         }, 
         "land": {
-            "publish": "on"
+            "publish": "off"
         }, 
         "landice": {
-            "publish": "on"
+            "publish": "off"
         }, 
         "ocean": {
-            "publish": "on"
+            "publish": "off"
         }, 
         "seaice": {
-            "publish": "on"
+            "publish": "off"
         }
     }, 
     "gfdl-esm2m": {
