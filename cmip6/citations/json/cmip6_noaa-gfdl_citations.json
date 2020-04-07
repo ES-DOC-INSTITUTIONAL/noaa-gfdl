@@ -4,6 +4,48 @@
     "seedingSource": "Spreadsheet", 
     "content": [
         {
+            "mnemonic": "Beven-Germann-1982", 
+            "doi": "10.1029/WR018i005p01311", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Bretherton-etal-2004", 
+            "doi": "10.1175/1520-0493(2004)132<0864:ANPFSC>2.0.CO;2", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Checa\u2010Garcia-etal-2019", 
+            "doi": "10.1002/2017GL076770", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": "Historical Tropospheric and Stratospheric Ozone Radiative Forcing Using the CMIP6 Database"
+        }, 
+        {
+            "mnemonic": "Donner-etal-2011", 
+            "doi": "10.1175/2011JCLI3955.1", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Freidenreich-Ramaswamy-1999", 
+            "doi": "10.1029/2004JD005471", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Garner-2005", 
+            "doi": "10.1175/JAS3496.1", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
             "mnemonic": "GFDL-AM4a", 
             "doi": "10.1002/2017MS001208", 
             "bibtex": null, 
@@ -16,6 +58,125 @@
             "bibtex": null, 
             "url": null, 
             "long_name": "The GFDL Global Atmosphere and Land Model AM4.0/LM4.0 - Part II: Model Description, Sensitivity Studies, and Tuning Strategies. Journal of Advances in Modeling Earth Systems"
+        }, 
+        {
+            "mnemonic": "GFDL-CM4", 
+            "doi": "10.1029/2019MS001829", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": "Structure and Performance of GFDL's CM4.0 Climate Model"
+        }, 
+        {
+            "mnemonic": "GFDL-GAMDT-2004", 
+            "doi": "10.1175/JCLI-3223.1", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Ginoux-etal-2001", 
+            "doi": "10.1029/2000JD000053", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Hillel-1980", 
+            "doi": null, 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": "Hillel, D. (Ed.). (1980). Fundamentals of soil physics (413 pp.). Cambridge, MA: Academic."
+        }, 
+        {
+            "mnemonic": "Leopold-Maddock-1953", 
+            "doi": null, 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": "Leopold, L., & T. Maddock (Eds.). (1953). Hydraulic geometry of stream channels and some physiographic implications (Prof. Pap. 252, 55 pp.). Reston, VA: U.S. Geological Survey."
+        }, 
+        {
+            "mnemonic": "Leuning-1995", 
+            "doi": "10.1111/j.1365-3040.1995.tb00370.x", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Lin-Rood-1996", 
+            "doi": "10.1175/1520-0493(1996)124<2046:MFFSLT>2.0.CO;2", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Lin-Rood-1997", 
+            "doi": "10.1002/qj.49712354416", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Lock-etal-2000", 
+            "doi": "10.1175/1520-0493(2000)128<3187:ANBLMS>2.0.CO;2 ", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Martensson-etal-2003", 
+            "doi": "10.1029/2002JD002633", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Milly-etal-2014", 
+            "doi": "10.1175/JHM-D-13-0162.1", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Ming-etal-2006", 
+            "doi": "10.1175/JAS3686.1", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Rotstayn-1997", 
+            "doi": "10.1002/qj.49712354106", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Rotstayn-etal-2000", 
+            "doi": "10.1175/1520-0493(2000)128<1070:ASFCOT>2.0.CO;2", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Schwarzkopf-Ramaswamy-1999", 
+            "doi": "10.1029/1999JD900003", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Shevliakova-etal-2009", 
+            "doi": "10.1029/2007GB003176", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Tiedtke-1993", 
+            "doi": "1520-0493(1993)121<3040:ROCILS>2.0.CO;2", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
         }
     ]
 }
