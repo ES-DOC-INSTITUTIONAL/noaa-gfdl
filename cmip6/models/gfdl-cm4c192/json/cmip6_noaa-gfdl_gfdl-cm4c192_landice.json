@@ -1,0 +1,8 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "noaa-gfdl", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "gfdl-cm4c192", 
+    "topic": "landice", 
+    "content": {}
+}

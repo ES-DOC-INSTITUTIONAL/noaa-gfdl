@@ -1,0 +1,8 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "noaa-gfdl", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "gfdl-global-lbl", 
+    "topic": "toplevel", 
+    "content": {}
+}
