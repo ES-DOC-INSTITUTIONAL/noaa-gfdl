@@ -77,7 +77,7 @@
         }, 
         "cmip6.land.key_properties.timestepping_framework.time_step": {
             "values": [
-                1800
+                1800.0
             ]
         }, 
         "cmip6.land.key_properties.timestepping_framework.timestepping_method": {
@@ -132,12 +132,12 @@
         }, 
         "cmip6.land.soil.snow_free_albedo.number_of_wavelength_bands": {
             "values": [
-                2
+                2.0
             ]
         }, 
         "cmip6.land.soil.hydrology.number_of_ground_water_layers": {
             "values": [
-                20
+                20.0
             ]
         }, 
         "cmip6.land.soil.hydrology.method": {
@@ -147,7 +147,7 @@
         }, 
         "cmip6.land.soil.hydrology.freezing.number_of_ground_ice_layers": {
             "values": [
-                20
+                20.0
             ]
         }, 
         "cmip6.land.soil.hydrology.freezing.ice_storage_method": {
@@ -162,7 +162,7 @@
         }, 
         "cmip6.land.snow.number_of_snow_layers": {
             "values": [
-                5
+                5.0
             ]
         }, 
         "cmip6.land.snow.density": {
@@ -252,7 +252,7 @@
         }, 
         "cmip6.land.energy_balance.number_of_surface_temperatures": {
             "values": [
-                1
+                1.0
             ]
         }, 
         "cmip6.land.energy_balance.evaporation": {
@@ -262,7 +262,7 @@
         }, 
         "cmip6.land.carbon_cycle.vegetation.number_of_carbon_pools": {
             "values": [
-                5
+                5.0
             ]
         }, 
         "cmip6.land.carbon_cycle.vegetation.carbon_pools": {
@@ -292,7 +292,7 @@
         }, 
         "cmip6.land.river_routing.number_of_reservoirs": {
             "values": [
-                1
+                1.0
             ]
         }, 
         "cmip6.land.river_routing.coupled_to_atmosphere": {

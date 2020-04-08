@@ -27,7 +27,7 @@
         }, 
         "cmip6.toplevel.key_properties.genealogy.year_released": {
             "values": [
-                2018
+                2018.0
             ]
         }, 
         "cmip6.toplevel.key_properties.genealogy.CMIP3_parent": {
@@ -247,7 +247,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.tropospheric_O3.additional_information": {
             "values": [
-                "Meinshausen et al. 2017"
+                "Checa-Garcia et al (2019)"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.provision": {
@@ -257,7 +257,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.additional_information": {
             "values": [
-                "Meinshausen et al. 2017"
+                "Checa-Garcia et al (2019)"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.provision": {
@@ -282,7 +282,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.SO4.additional_information": {
             "values": [
-                "van Marle et al. 2017"
+                "Hoesly et al (2018) and van Marle et al (2017)"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.black_carbon.provision": {
@@ -292,7 +292,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.black_carbon.additional_information": {
             "values": [
-                "Hoesly et al. 2017"
+                "Hoesly et al (2018) and van Marle et al (2017)"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.provision": {
@@ -302,7 +302,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.additional_information": {
             "values": [
-                "Hoesly et al. 2017"
+                "Hoesly et al (2018) and van Marle et al (2017)"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.nitrate.provision": {
@@ -367,7 +367,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.future_explosive_volcanic_aerosol_implementation": {
             "values": [
-                "Other: N/A"
+                "Type C: Explosive volcanic aerosol returns slowly (over several decades) to constant (average volcano) background."
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.additional_information": {
@@ -385,9 +385,14 @@
                 "Other: specify time series of stratospheric aerosol optical properties"
             ]
         }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.future_explosive_volcanic_aerosol_implementation": {
+            "values": [
+                "Type C: Explosive volcanic aerosol returns slowly (over several decades) to constant (average volcano) background."
+            ]
+        }, 
         "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.additional_information": {
             "values": [
-                "Stenchikov et al. 2006"
+                "CMIP6 prescribed Volcanic dataset is used (ftp://iacftp.ethz.ch/pub_read/luo/CMIP6/GFDL/), interpolated onto pressure levels and GFDL radiation bands."
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.sea_salt.provision": {
@@ -418,6 +423,11 @@
         "cmip6.toplevel.radiative_forcings.other.solar.provision": {
             "values": [
                 "Irradiance"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.other.solar.additional_information": {
+            "values": [
+                "Mathes et al. (2017)"
             ]
         }
     }

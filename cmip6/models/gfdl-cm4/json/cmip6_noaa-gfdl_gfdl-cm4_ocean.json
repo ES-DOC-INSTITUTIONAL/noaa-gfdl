@@ -63,12 +63,12 @@
         }, 
         "cmip6.ocean.key_properties.seawater_properties.ocean_specific_heat": {
             "values": [
-                3992
+                3992.0
             ]
         }, 
         "cmip6.ocean.key_properties.seawater_properties.ocean_reference_density": {
             "values": [
-                1035
+                1035.0
             ]
         }, 
         "cmip6.ocean.key_properties.bathymetry.reference_dates": {
@@ -133,12 +133,12 @@
         }, 
         "cmip6.ocean.key_properties.resolution.number_of_horizontal_gridpoints": {
             "values": [
-                1555200
+                1555200.0
             ]
         }, 
         "cmip6.ocean.key_properties.resolution.number_of_vertical_levels": {
             "values": [
-                75
+                75.0
             ]
         }, 
         "cmip6.ocean.key_properties.resolution.is_adaptive_grid": {
@@ -148,7 +148,7 @@
         }, 
         "cmip6.ocean.key_properties.resolution.thickness_level_1": {
             "values": [
-                2
+                2.0
             ]
         }, 
         "cmip6.ocean.key_properties.tuning_applied.description": {
@@ -166,6 +166,16 @@
                 "Salt", 
                 "Other: Heat", 
                 "Volume of ocean"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.conservation.was_flux_correction_used": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocean.grid.discretisation.horizontal.scheme": {
+            "values": [
+                "Other: finite differences"
             ]
         }, 
         "cmip6.ocean.timestepping_framework.tracers.scheme": {
@@ -196,6 +206,11 @@
         "cmip6.ocean.advection.lateral_tracers.name": {
             "values": [
                 "Sweby"
+            ]
+        }, 
+        "cmip6.ocean.advection.vertical_tracers.flux_limiter": {
+            "values": [
+                true
             ]
         }, 
         "cmip6.ocean.lateral_physics.momentum.operator.direction": {
@@ -250,12 +265,12 @@
         }, 
         "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.constant_coefficient": {
             "values": [
-                600
+                600.0
             ]
         }, 
         "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.coeff_background": {
             "values": [
-                600
+                600.0
             ]
         }, 
         "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.type": {
@@ -266,6 +281,11 @@
         "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.flux_type": {
             "values": [
                 "Skew flux"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.added_diffusivity": {
+            "values": [
+                "Flow dependent"
             ]
         }, 
         "cmip6.ocean.vertical_physics.boundary_layer_mixing.tracers.type": {
@@ -303,6 +323,11 @@
                 "10**-5 m**2/s"
             ]
         }, 
+        "cmip6.ocean.vertical_physics.interior_mixing.momentum.background": {
+            "values": [
+                "1e-4 m**2/s"
+            ]
+        }, 
         "cmip6.ocean.uplow_boundaries.free_surface.scheme": {
             "values": [
                 "Non-linear semi-explicit"
@@ -315,7 +340,12 @@
         }, 
         "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.lateral_mixing_coef": {
             "values": [
-                100
+                100.0
+            ]
+        }, 
+        "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.sill_overflow": {
+            "values": [
+                "Specific treatment"
             ]
         }, 
         "cmip6.ocean.boundary_forcing.momentum_flux_correction": {

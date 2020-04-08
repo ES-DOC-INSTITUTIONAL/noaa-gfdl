@@ -2,7 +2,7 @@
     "mipEra": "cmip6", 
     "institute": "noaa-gfdl", 
     "seedingSource": "Spreadsheet", 
-    "sourceID": "gfdl-cm4", 
+    "sourceID": "gfdl-cm4c192", 
     "topic": "toplevel", 
     "content": {
         "cmip6.toplevel.key_properties.name": {

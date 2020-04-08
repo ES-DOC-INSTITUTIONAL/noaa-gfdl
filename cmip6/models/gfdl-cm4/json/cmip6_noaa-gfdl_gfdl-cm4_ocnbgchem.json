@@ -57,7 +57,7 @@
         }, 
         "cmip6.ocnbgchem.key_properties.time_stepping_framework.passive_tracers_transport.timestep_if_not_from_ocean": {
             "values": [
-                8
+                8.0
             ]
         }, 
         "cmip6.ocnbgchem.key_properties.time_stepping_framework.biology_sources_sinks.method": {
@@ -67,7 +67,7 @@
         }, 
         "cmip6.ocnbgchem.key_properties.time_stepping_framework.biology_sources_sinks.timestep_if_not_from_ocean": {
             "values": [
-                8
+                8.0
             ]
         }, 
         "cmip6.ocnbgchem.key_properties.transport_scheme.type": {
@@ -185,6 +185,11 @@
                 "Equatorial Pacific growth rate of 0.7 d-1, surface chlorophyll 0.3 ug l-1, surface PO4 0.6 uM and dissoc 60 uM going up to ~80uM in the subtropical gyres."
             ]
         }, 
+        "cmip6.ocnbgchem.key_properties.tuning_applied.trend_metrics_used": {
+            "values": [
+                "Not Applicable"
+            ]
+        }, 
         "cmip6.ocnbgchem.tracers.name": {
             "values": [
                 "BLINGv2"
@@ -243,6 +248,11 @@
         "cmip6.ocnbgchem.tracers.dic_alkalinity.abiotic_carbon": {
             "values": [
                 false
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.dic_alkalinity.alkalinity": {
+            "values": [
+                "Prognostic"
             ]
         }
     }

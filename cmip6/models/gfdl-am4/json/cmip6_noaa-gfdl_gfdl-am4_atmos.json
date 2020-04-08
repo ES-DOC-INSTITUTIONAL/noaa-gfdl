@@ -48,7 +48,7 @@
         }, 
         "cmip6.atmos.key_properties.resolution.number_of_vertical_levels": {
             "values": [
-                33
+                33.0
             ]
         }, 
         "cmip6.atmos.key_properties.resolution.high_top": {
@@ -63,7 +63,7 @@
         }, 
         "cmip6.atmos.key_properties.timestepping.timestep_shortwave_radiative_transfer": {
             "values": [
-                3600
+                3600.0
             ]
         }, 
         "cmip6.atmos.key_properties.timestepping.timestep_longwave_radiative_transfer": {
@@ -176,7 +176,7 @@
         }, 
         "cmip6.atmos.dynamical_core.lateral_boundary.condition": {
             "values": [
-                "Other: n/a"
+                "Other: N/A"
             ]
         }, 
         "cmip6.atmos.dynamical_core.diffusion_horizontal.scheme_name": {
@@ -262,7 +262,7 @@
         }, 
         "cmip6.atmos.radiation.shortwave_radiation.spectral_intervals": {
             "values": [
-                18
+                18.0
             ]
         }, 
         "cmip6.atmos.radiation.shortwave_radiation.general_interactions": {
@@ -297,12 +297,12 @@
         }, 
         "cmip6.atmos.turbulence_convection.overview": {
             "values": [
-                "PBL convection described in Lock (2000) and GAMDT (2004). Double plume moist convection described in Zhao et al (2018b) and Bretherton et al (2004)"
+                "PBL convection described in Lock et al (2000) and GFDL-GAMDT (2004). Double plume moist convection described in Zhao et al (2018b) and Bretherton et al (2004)"
             ]
         }, 
         "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.scheme_name": {
             "values": [
-                "Other: Lock 2000"
+                "Other: Lock et al 2000"
             ]
         }, 
         "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.scheme_type": {
@@ -312,7 +312,7 @@
         }, 
         "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.closure_order": {
             "values": [
-                1
+                1.0
             ]
         }, 
         "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.counter_gradient": {
@@ -322,7 +322,7 @@
         }, 
         "cmip6.atmos.turbulence_convection.deep_convection.scheme_name": {
             "values": [
-                "Double Plume scheme with one bulk plume for deep and one for shallow convection (Zhao et al 2018)"
+                "Double Plume scheme with one bulk plume for deep and one for shallow convection (Zhao et al 2018b)"
             ]
         }, 
         "cmip6.atmos.turbulence_convection.deep_convection.scheme_type": {
@@ -352,7 +352,7 @@
         }, 
         "cmip6.atmos.turbulence_convection.shallow_convection.scheme_name": {
             "values": [
-                "modified UW Shallow Cumulus Scheme (Bretherton et. al 2004, Zhao et. al 2008, Zhao et. al 2018)"
+                "modified UW Shallow Cumulus Scheme (Bretherton et. al 2004, Zhao et. al 2008a, Zhao et. al 2018b)"
             ]
         }, 
         "cmip6.atmos.turbulence_convection.shallow_convection.scheme_type": {
@@ -362,7 +362,7 @@
         }, 
         "cmip6.atmos.turbulence_convection.shallow_convection.scheme_method": {
             "values": [
-                "Separate diagnosis", 
+                "separate diagnosis: Deep and Shallow convection schemes use different thermodynamic closure criteria", 
                 "Included in boundary layer turbulence", 
                 "Other: TKE/CIN based closure"
             ]
@@ -424,7 +424,8 @@
         }, 
         "cmip6.atmos.cloud_scheme.processes": {
             "values": [
-                "Other: prognostic cloud area, liquid, and ice for stratiform clouds; convective cloud area diagnosed from cumulus parameterizations"
+                "Other: prognostic cloud area, liquid, and ice for stratiform clouds", 
+                "Other: convective cloud area diagnosed from cumulus parameterizations"
             ]
         }, 
         "cmip6.atmos.cloud_scheme.prognostic_variables": {
@@ -507,12 +508,12 @@
         }, 
         "cmip6.atmos.observation_simulation.cosp_attributes.number_of_sub_columns": {
             "values": [
-                25
+                25.0
             ]
         }, 
         "cmip6.atmos.observation_simulation.cosp_attributes.number_of_levels": {
             "values": [
-                40
+                40.0
             ]
         }, 
         "cmip6.atmos.observation_simulation.radar_inputs.frequency": {
@@ -547,7 +548,7 @@
         }, 
         "cmip6.atmos.gravity_waves.overview": {
             "values": [
-                "Subgrid orographic drag parameterization is decribed in Garner (2005) and Zhao et. al (2018). Convective gravity wave parameterization is described in Alexander and Dunkerton (1999)."
+                "Subgrid orographic drag parameterization is decribed in Garner (2005) and Zhao et. al (2018b). Convective gravity wave parameterization is described in Alexander and Dunkerton (1999)."
             ]
         }, 
         "cmip6.atmos.gravity_waves.sponge_layer": {
@@ -574,7 +575,8 @@
             "values": [
                 "Linear mountain waves", 
                 "Low level flow blocking", 
-                "Other: Garner 2005, Zhao et. al 2018"
+                "Other: Zhao et al. 2008b", 
+                "Other: Garner 2005"
             ]
         }, 
         "cmip6.atmos.gravity_waves.orographic_gravity_waves.calculation_method": {
@@ -629,7 +631,7 @@
         }, 
         "cmip6.atmos.natural_forcing.orbital_parameters.fixed_reference_date": {
             "values": [
-                23
+                23.0
             ]
         }, 
         "cmip6.atmos.natural_forcing.insolation_ozone.solar_ozone_impact": {

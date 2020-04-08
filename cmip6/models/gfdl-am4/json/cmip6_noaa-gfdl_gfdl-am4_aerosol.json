@@ -37,7 +37,7 @@
         }, 
         "cmip6.aerosol.key_properties.number_of_tracers": {
             "values": [
-                16
+                16.0
             ]
         }, 
         "cmip6.aerosol.key_properties.family_approach": {
@@ -67,17 +67,17 @@
         }, 
         "cmip6.aerosol.key_properties.timestep_framework.split_operator_advection_timestep": {
             "values": [
-                1800
+                1800.0
             ]
         }, 
         "cmip6.aerosol.key_properties.timestep_framework.split_operator_physical_timestep": {
             "values": [
-                1800
+                1800.0
             ]
         }, 
         "cmip6.aerosol.key_properties.timestep_framework.integrated_timestep": {
             "values": [
-                1800
+                1800.0
             ]
         }, 
         "cmip6.aerosol.key_properties.timestep_framework.integrated_scheme_type": {
@@ -97,7 +97,7 @@
         }, 
         "cmip6.aerosol.key_properties.meteorological_forcings.frequency": {
             "values": [
-                1800
+                1800.0
             ]
         }, 
         "cmip6.aerosol.key_properties.resolution.name": {
@@ -112,12 +112,12 @@
         }, 
         "cmip6.aerosol.key_properties.resolution.number_of_horizontal_gridpoints": {
             "values": [
-                55296
+                55296.0
             ]
         }, 
         "cmip6.aerosol.key_properties.resolution.number_of_vertical_levels": {
             "values": [
-                33
+                33.0
             ]
         }, 
         "cmip6.aerosol.key_properties.resolution.is_adaptive_grid": {
@@ -162,12 +162,12 @@
         }, 
         "cmip6.aerosol.grid.resolution.number_of_horizontal_gridpoints": {
             "values": [
-                55296
+                55296.0
             ]
         }, 
         "cmip6.aerosol.grid.resolution.number_of_vertical_levels": {
             "values": [
-                33
+                33.0
             ]
         }, 
         "cmip6.aerosol.transport.overview": {
@@ -320,12 +320,12 @@
         }, 
         "cmip6.aerosol.optical_radiative_properties.radiative_scheme.shortwave_bands": {
             "values": [
-                18
+                18.0
             ]
         }, 
         "cmip6.aerosol.optical_radiative_properties.radiative_scheme.longwave_bands": {
             "values": [
-                7
+                7.0
             ]
         }, 
         "cmip6.aerosol.optical_radiative_properties.cloud_interactions.twomey": {
