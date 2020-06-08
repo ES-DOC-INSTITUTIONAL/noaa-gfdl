@@ -4,26 +4,5 @@
     "seedingSource": "Spreadsheet", 
     "sourceID": "gfdl-am4", 
     "topic": "landice", 
-    "content": {
-        "cmip6.landice.key_properties.ice_albedo": {
-            "values": [
-                "Prescribed"
-            ]
-        }, 
-        "cmip6.landice.key_properties.software_properties.repository": {
-            "values": [
-                "https://github.com/NOAA-GFDL/AM4"
-            ]
-        }, 
-        "cmip6.landice.key_properties.software_properties.code_version": {
-            "values": [
-                "warsaw"
-            ]
-        }, 
-        "cmip6.landice.key_properties.software_properties.code_languages": {
-            "values": [
-                "FORTRAN 90/95/2003"
-            ]
-        }
-    }
+    "content": {}
 }

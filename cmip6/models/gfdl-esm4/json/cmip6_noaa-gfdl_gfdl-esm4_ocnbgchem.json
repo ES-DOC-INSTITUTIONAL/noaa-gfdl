@@ -5,51 +5,6 @@
     "sourceID": "gfdl-esm4", 
     "topic": "ocnbgchem", 
     "content": {
-        "cmip6.ocnbgchem.key_properties.name": {
-            "values": [
-                "TOPAZ version 2"
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.prognostic_variables": {
-            "values": [
-                "30 prognostic vbls: DIC, ALK, O2, NDET, NHET, NH4, NDI, NLG,..."
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.gas_exchange.CO2_exchange_present": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.gas_exchange.CO2_exchange_type": {
-            "values": [
-                "Other: wanninkhof"
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.gas_exchange.O2_exchange_present": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.gas_exchange.O2_exchange_type": {
-            "values": [
-                "Other: wanninkhof"
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.gas_exchange.DMS_exchange_present": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.gas_exchange.N2_exchange_present": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.gas_exchange.N2O_exchange_present": {
-            "values": [
-                true
-            ]
-        }, 
         "cmip6.ocnbgchem.tracers.sulfur_cycle_present": {
             "values": [
                 true
