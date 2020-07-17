@@ -5,6 +5,201 @@
     "sourceID": "gfdl-cm4", 
     "topic": "toplevel", 
     "content": {
+        "cmip6.toplevel.key_properties.name": {
+            "values": [
+                "GFDL-CM4.0, Geophysical Fluid Dynamics Laboratory"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.overview": {
+            "values": [
+                "This is the GFDL physical coupled model CM4.0 for use in CMIP6.  The model is documented in Held et al (2019)"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.flux_correction.details": {
+            "values": [
+                "No flux corrections are applied"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.year_released": {
+            "values": [
+                2019.0
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.CMIP3_parent": {
+            "values": [
+                "CM2, see Delworth et al, 2006, Journal of Climate"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.CMIP5_parent": {
+            "values": [
+                "CM3, see Donner et al., 2011, Journal of Climate"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.CMIP5_differences": {
+            "values": [
+                "CM4 has approximately double the atmospheric resolution and quadruple the ocean resolution of GFDL's CMIP5 models."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.previous_name": {
+            "values": [
+                "N/A"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.repository": {
+            "values": [
+                "https://github.com/NOAA-GFDL/AM4"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.code_version": {
+            "values": [
+                "warsaw"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.code_languages": {
+            "values": [
+                "Fortran, C"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.components_structure": {
+            "values": [
+                "FMS (Flexible Modeling System) coupler exchanges fluxes among various independent components (atmosphere, ocean, sea ice, land) ensuring the conservation of properties (e.g. mass, energy) and numerical stability."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.coupler": {
+            "values": [
+                "Other: FMS"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.coupling.atmosphere_double_flux": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.coupling.atmosphere_fluxes_calculation_grid": {
+            "values": [
+                "Specific coupler grid"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.coupling.atmosphere_relative_winds": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.description": {
+            "values": [
+                "Atmospheric model simulated present-day global top-of-atmsphere radiative fluxes are tuned towards the observational estimates from CERES (EBAF-Ed2.8). Model development focused on model performance in simulating present-day climatology and variabilility but also considered idealized CO2 increase and preliminary historical experiments."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.global_mean_metrics_used": {
+            "values": [
+                "Ocean heat uptake in preindustrial run; global SST at present-day"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.regional_metrics_used": {
+            "values": [
+                "AMOC magnitude and structure; ENSO spectrum and other characteristics;"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.trend_metrics_used": {
+            "values": [
+                "Historical warming and sea level rise simulations motivated concerns about model sensitivity"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.energy_balance": {
+            "values": [
+                "There is a small net flux of heat into the system throughout the pre-industrial control experiment."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.fresh_water_balance": {
+            "values": [
+                "Water is conserved by the individual componenents and exchanged conservatively between components by the FMS coupler."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.global": {
+            "values": [
+                "Individual components conserve energy and energy is exchanged conservatively between components by the FMS coupler. \n"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.atmos_ocean_interface": {
+            "values": [
+                "FMS coupler conserves heat across ocean/atmosphere interface"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.atmos_land_interface": {
+            "values": [
+                "FMS coupler conserves heat across land/atmosphere interface"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.atmos_sea-ice_interface": {
+            "values": [
+                "FMS coupler conserves heat across sea ice/atmosphere interface"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.ocean_seaice_interface": {
+            "values": [
+                "FMS coupler conserves heat across the sea ice/ocean interface"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.land_ocean_interface": {
+            "values": [
+                "FMS coupler conserves heat across land/ocean interface by passing heat carried by rivers to the ocean."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.global": {
+            "values": [
+                "Water is conserved by the individual componenents and exchanged conservatively between components by the FMS coupler."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.atmos_ocean_interface": {
+            "values": [
+                "FMS coupler conserves fresh water across the atmosphere/ocean interface"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.atmos_land_interface": {
+            "values": [
+                "FMS coupler conserves fresh water across land/atmosphere interface"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.atmos_sea-ice_interface": {
+            "values": [
+                "FMS coupler conserves fresh water across the atmosphere/sea ice interface"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.ocean_seaice_interface": {
+            "values": [
+                "FMS coupler conserves fresh water across the ocean/sea ice interface"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.runoff": {
+            "values": [
+                "Runoff from land enters into river network, which transports it to the discharge points (river mouths) and passes the fresh water flux to the ocean. River network interacts with the atmopshere through the fluxes from/to open water fractions of the land grid cell."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.iceberg_calving": {
+            "values": [
+                "snow runoff (calving flux) in input to iceberg model;  the transfer from land snow to iceberg conserves water"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.endoreic_basins": {
+            "values": [
+                "River network carries all runoff to the ocean."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.snow_accumulation": {
+            "values": [
+                "To avoid long-term unbound accumulation of snow on land, snow accumulated above certain thershold is converted to runoff and put into the river network.  "
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.salt.ocean_seaice_interface": {
+            "values": [
+                "salt is exchanged conservatively between ocean and sea ice models as sea ice freezes and melts"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.momentum.details": {
+            "values": [
+                "There is no enforcement of global momentum conservation in the model"
+            ]
+        }, 
         "cmip6.toplevel.radiative_forcings.name": {
             "values": [
                 "CMIP6 radiative forcings"

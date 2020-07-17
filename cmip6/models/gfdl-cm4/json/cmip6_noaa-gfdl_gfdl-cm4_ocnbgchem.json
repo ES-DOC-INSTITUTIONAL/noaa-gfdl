@@ -5,6 +5,191 @@
     "sourceID": "gfdl-cm4", 
     "topic": "ocnbgchem", 
     "content": {
+        "cmip6.ocnbgchem.key_properties.name": {
+            "values": [
+                "BLINGv2"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.keywords": {
+            "values": [
+                "Biogeochemistry ocean Carbon Cycle Iron Phosphorus"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.overview": {
+            "values": [
+                "Biogeochemistry with Light, Iron, Nutrient and Gas version 2 (BLINGv2) includes an implicit ecological model of phytoplankton growth limitation by light, temperature, phosphate and iron along with dissolved organic carbon, oxygen, dissolved inorganic carbon and alkalinity pools and food web processing as described in Dunne et al. (in prep).  Major revisions from the previous Galbraith et al. (2010) version include addressing issues with the representation of the diurnal cycle and conformance with representation of PO4 and CaCO3 cycling in parallel development in GFDL's COBALT version 2 used in GFDL-ESM4 (Stock et al., in prep) "
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.model_type": {
+            "values": [
+                "Geochemical: No living compartments"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.elemental_stoichiometry": {
+            "values": [
+                "Fixed: Fixed stoichiometry"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.elemental_stoichiometry_details": {
+            "values": [
+                "Fixed organic carbon to phosphorus stoichiometry.  Variable CaCO3 to organic carbon stoichiometry"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.prognostic_variables": {
+            "values": [
+                "Dissic, Dissoc, Talk, O2, PO4, Dfe"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.diagnostic_variables": {
+            "values": [
+                "Chl, PhyC, PhyP"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.damping": {
+            "values": [
+                "Not Applicable"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.time_stepping_framework.passive_tracers_transport.method": {
+            "values": [
+                "Use specific time step"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.time_stepping_framework.passive_tracers_transport.timestep_if_not_from_ocean": {
+            "values": [
+                8.0
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.time_stepping_framework.biology_sources_sinks.method": {
+            "values": [
+                "Use specific time step"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.time_stepping_framework.biology_sources_sinks.timestep_if_not_from_ocean": {
+            "values": [
+                8.0
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.transport_scheme.type": {
+            "values": [
+                "Online"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.transport_scheme.scheme": {
+            "values": [
+                "Use that of ocean model"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.boundary_forcing.atmospheric_deposition": {
+            "values": [
+                "From file (climatology)"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.boundary_forcing.river_input": {
+            "values": [
+                "From file (climatology)"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.boundary_forcing.sediments_from_explicit_model": {
+            "values": [
+                "Organic Carbon, Calcite"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.CO2_exchange_present": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.O2_exchange_present": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.O2_exchange_type": {
+            "values": [
+                "OMIP protocol"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.DMS_exchange_present": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.N2_exchange_present": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.N2O_exchange_present": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.CFC11_exchange_present": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.CFC11_exchange_type": {
+            "values": [
+                "OMIP"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.CFC12_exchange_present": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.CFC12_exchange_type": {
+            "values": [
+                "OMIP"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.SF6_exchange_present": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.SF6_exchange_type": {
+            "values": [
+                "OMIP"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.13CO2_exchange_present": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.14CO2_exchange_present": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.carbon_chemistry.type": {
+            "values": [
+                "OMIP protocol"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.tuning_applied.description": {
+            "values": [
+                "Particular attention was paid to matching growth rate, biomass and dissolved organic carbon production and lability parameters to match patterns in the Equatorial Pacific and sinking velocity to match the structure of the nutricline/oxycline"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.tuning_applied.global_mean_metrics_used": {
+            "values": [
+                "Interior iron concentration of 0.4-0.6 nM; refractory dissoc 38uM"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.tuning_applied.regional_metrics_used": {
+            "values": [
+                "Equatorial Pacific growth rate of 0.7 d-1, surface chlorophyll 0.3 ug l-1, surface PO4 0.6 uM and dissoc 60 uM going up to ~80uM in the subtropical gyres."
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.tuning_applied.trend_metrics_used": {
+            "values": [
+                "Not Applicable"
+            ]
+        }, 
         "cmip6.ocnbgchem.tracers.name": {
             "values": [
                 "BLINGv2"

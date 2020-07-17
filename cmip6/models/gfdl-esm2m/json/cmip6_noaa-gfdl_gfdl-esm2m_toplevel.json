@@ -4,5 +4,11 @@
     "seedingSource": "Spreadsheet", 
     "sourceID": "gfdl-esm2m", 
     "topic": "toplevel", 
-    "content": {}
+    "content": {
+        "cmip6.toplevel.key_properties.name": {
+            "values": [
+                "GFDL-CM2.1, Geophysical Fluid Dynamics Laboratory"
+            ]
+        }
+    }
 }
